@@ -8,8 +8,8 @@ ipr: trust200902
 area: General
 workgroup: ELEGY
 keyword: Internet-Draft
-obsoletes: 8713
-updates: 8989
+obsoletes: 8989
+updates: 8713
 
 stand_alone: yes
 smart_quotes: no
@@ -227,7 +227,7 @@ of NomCom capture. This appendix shows the work.
 Let (a ch b) mean the number of combinations of b items chosen from a population
 of a items, or
 
-(a ch b) = fact(a) / (fact(a-b) * fact(b))>
+(a ch b) = fact(a) / (fact(a-b) * fact(b))
 
 ## No per-organization limit
 
@@ -239,7 +239,7 @@ attacker" and A be the number of attacking volunteers. Then there are
 ((L+A) ch 10) ways to select a NomCom. The number of outcomes where attackers
 capture the NomCom is
 
-Sum(i=6..10)[(A ch i) * (L ch (10-i)]>
+Sum(i=6..10)[(A ch i) * (L ch (10-i)]
 
 and the probability of capture is therefore
 
@@ -268,8 +268,8 @@ For L = 300, the A required to exceed a 50% probability of capture is 771.
 
 # Change Log
 
-RFC Editor's Note: Please remove this section prior to
-publication of a final version of this document.
+> **RFC Editor's Note:** Please remove this section prior to
+> publication of a final version of this document.
 
 ## Since draft-duke-elegy-rfc8989bis-00
 
@@ -283,3 +283,4 @@ publication of a final version of this document.
 # Acknowledgments
 {:numbered="false"}
 
+TODO acknowledge.
