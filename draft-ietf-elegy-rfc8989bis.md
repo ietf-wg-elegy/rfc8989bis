@@ -1,5 +1,5 @@
 ---
-title: Nominating Committee Eligilibity
+title: Nominating Committee Eligibility
 abbrev: RFC8989bis
 docname: draft-ietf-elegy-rfc8989bis-latest
 category: bcp
@@ -19,7 +19,7 @@ author:
  -
     ins: M. Duke
     name: Martin Duke
-    organization: Google
+    organization: Google LLC
     email: martin.h.duke@gmail.com
 
 normative:
