@@ -239,11 +239,11 @@ attacker" and A be the number of attacking volunteers. Then there are
 ((L+A) ch 10) ways to select a NomCom. The number of outcomes where attackers
 capture the NomCom is
 
-Sum(i=6..10)[(A ch i) * (L ch (10-i)]
+Sum(i=6..10)[(A ch i) * (L ch (10-i))]
 
 and the probability of capture is therefore
 
-Sum(i=6..10)[(A ch i) * (L ch (10-i)] / ((L+A) ch 10).
+Sum(i=6..10)[(A ch i) * (L ch (10-i))] / ((L+A) ch 10).
 
 For L = 300, this probability crosses 50% at A = 365.
 
