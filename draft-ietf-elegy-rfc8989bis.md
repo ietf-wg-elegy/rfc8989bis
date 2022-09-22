@@ -73,9 +73,12 @@ of an IETF Stream RFC in the past five years, including internet-drafts in the
 RFC Editor queue.
 
 This document discusses some of the first principles that inform the design of
-NomCom eligibility. It makes recommendations on how the future process should
-work. Its objective is to eventually replace Section 4.14 of RFC8713 with
-criteria loosely based on those in RFC8989.
+NomCom eligibility, and makes recommendations on how the process of 
+qualification based on attendance should work.
+This document replaces the attendance criteria in {{Section 4.14 of RFC8713}} with
+criteria loosely based on those in {{!RFC8989}}.
+The other paragraphs of {{Section 4.14 of RFC8713}}
+remain intact.
 
 # Conventions and Definitions
 
@@ -180,7 +183,7 @@ capture (see {{capture-math}}).
 
 A sudden surge in the number of volunteers, particularly of people that no one
 recognizes as a part of the community is an early-warning system for leadership
-to further investigate.
+and the IETF Secretariat to further investigate.
 
 While loosening eligibility criteria lowers the cost to an attacker of producing
 eligible volunteers, it also increases the number of "legitimate" volunteers
@@ -207,7 +210,7 @@ for a 50% chance of NomCom capture (see {{capture-math}}).
 
 Attendance at 3 meetings requires at least 1 year. Given the volume of
 volunteers necessary to capture the process, an attack requires a surge in
-attendees over the course of a year. IETF leadership SHOULD analyze unexplained
+attendees over the course of a year. IETF Secretariat SHOULD analyze unexplained
 surges in attendance to look for signs of manipulating the eligibility
 requirements (e.g. logging in to a single session and then immediately logging
 out). In the event of malfeasance, the leadership would then have months to
