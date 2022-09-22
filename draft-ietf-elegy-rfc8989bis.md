@@ -258,7 +258,7 @@ Let B be the number of nominees per attacking organization, so that A = 3B.
 The number of combinations to pick exactly N attackers, N <= 6, is
 
 C(N) = (L ch (10-N)) *
-    Sum(i=0:min(N,2))[(B ch i)<em>Sum(j=0..min(2, N-i))[(B ch j)</em>(B ch min(2, N-i-j))]]
+    Sum(i=0:min(N,2))[(B ch i)*Sum(j=0..min(2, N-i))[(B ch j)*(B ch min(2, N-i-j))]]
 
 And the probability of capture is
 
