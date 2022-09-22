@@ -76,7 +76,7 @@ This document discusses some of the first principles that inform the design of
 NomCom eligibility, and makes recommendations on how the process of 
 qualification based on attendance should work.
 This document replaces the attendance criteria in {{Section 4.14 of RFC8713}} with
-criteria loosely based on those in {{!RFC8989}}.
+criteria loosely based on those in {{?RFC8989}}.
 The other paragraphs of {{Section 4.14 of RFC8713}}
 remain intact.
 
