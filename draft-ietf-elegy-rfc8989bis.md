@@ -284,6 +284,12 @@ For L = 300, the A required to exceed a 50% probability of capture is 771.
 * Added security considerations and appendix
 
 # Acknowledgments
+
+Brian Carpenter and Stephen Farrell wrote RFC8989, which provides the core of
+this document.
+
+Luc André Burdet provided useful editorial suggestions.
+
 {:numbered="false"}
 
 TODO acknowledge.
