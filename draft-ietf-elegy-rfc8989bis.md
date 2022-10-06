@@ -72,7 +72,7 @@ of an IETF Stream RFC in the past five years, including internet-drafts in the
 RFC Editor queue.
 
 This document discusses some of the first principles that inform the design of
-NomCom eligibility, and makes recommendations on how the process of 
+NomCom eligibility, and makes recommendations on how the process of
 qualification based on attendance should work.
 
 This document replaces the attendance criteria in {{Section 4.14 of RFC8713}}
@@ -291,5 +291,3 @@ this document.
 Luc André Burdet provided useful editorial suggestions.
 
 {:numbered="false"}
-
-TODO acknowledge.
