@@ -45,11 +45,10 @@ remote attendance.
 # Introduction
 
 {{!RFC8713}} defines the process for selection of the Internet Architecture
-Board (IAB), Internet Engineering Steering Group (IESG), IETF Trust, and the
-IETF LLC Director. These four committees form the senior leadership of the IETF.
-A key actor in the process is the Nominating Committee (NomCom), which nominates
-a single candidate for each open position from the pool of volunteers, subject
-to confirmation by other bodies.
+Board (IAB), Internet Engineering Steering Group (IESG), IETF Trust, and one
+IETF LLC Director. A key actor in the process is the Nominating Committee
+(NomCom), which nominates a single candidate for each open position from the
+pool of volunteers, subject to confirmation by other bodies.
 
 NomCom voting members are themselves volunteers that have met certain
 eligibility requirements. The actual NomCom is selected at random from the pool
@@ -57,9 +56,9 @@ of eligible volunteers, with restrictions to ensure that no more than two
 volunteers with the same primary affiliation are chosen.
 
 {{Section 4.14 of RFC8713}} requires that volunteers must have attended three of
-the previous five in-person meetings. In practice, this has meant that the
-volunteer picked up their registration badge. Current members of the Internet
-Society Board of Trustees, IETF Trust, LLC Board, IAB, and IESG are ineligible.
+the previous five meetings. In practice, this has meant that the volunteer
+picked up their registration badge. Current members of the Internet Society
+Board of Trustees, IETF Trust, LLC Board, IAB, and IESG are ineligible.
 
 {{?RFC8989}} specified an experiment in the wake of six consecutive fully online
 meetings from 2020 to 2021, where the traditional interpretation of the
@@ -75,10 +74,11 @@ RFC Editor queue.
 This document discusses some of the first principles that inform the design of
 NomCom eligibility, and makes recommendations on how the process of 
 qualification based on attendance should work.
-This document replaces the attendance criteria in {{Section 4.14 of RFC8713}} with
-criteria loosely based on those in {{?RFC8989}}.
-The other paragraphs of {{Section 4.14 of RFC8713}}
-remain intact.
+
+This document replaces the attendance criteria in {{Section 4.14 of RFC8713}}
+with criteria loosely based on those in {{?RFC8989}}, and obsoletes RFC8989 to
+make it clear that that document has been superceded. The other paragraphs of
+{{Section 4.14 of RFC8713}} remain intact.
 
 # Conventions and Definitions
 
@@ -166,10 +166,10 @@ seven NomCom members working together can almost certainly impose their will.
 
 Whatever the merits of admitting remote attendees, it reduces the minimum cost
 of creating a NomCom-eligible volunteer from three flights and ~5 days of travel
-over the course of a year, to zero financial cost and the time required to log
-in three times over the course of a year. Some organizations might not be
-deterred in either case, while others might now find such an attack to be
-feasible.
+over the course of at least 8 months, to zero financial cost and the time
+required to log in three times over the course of a year. Some organizations
+might not be deterred in either case, while others might now find such an attack
+to be feasible.
 
 ## A Surge of Volunteers
 
@@ -208,7 +208,7 @@ for a 50% chance of NomCom capture (see {{capture-math}}).
 
 ## One Year of Participation
 
-Attendance at 3 meetings requires at least 1 year. Given the volume of
+Attendance at 3 meetings requires at least 8 months. Given the volume of
 volunteers necessary to capture the process, an attack requires a surge in
 attendees over the course of a year. IETF Secretariat SHOULD analyze unexplained
 surges in attendance to look for signs of manipulating the eligibility
