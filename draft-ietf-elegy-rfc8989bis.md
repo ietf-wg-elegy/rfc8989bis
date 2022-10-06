@@ -48,18 +48,21 @@ remote attendance.
 Board (IAB), Internet Engineering Steering Group (IESG), IETF Trust, and the
 IETF LLC Director. These four committees form the senior leadership of the IETF.
 A key actor in the process is the Nominating Committee (NomCom), which nominates
-a single candidate for each open position from the pool of volunteers, subject
-to confirmation by other bodies.
+a single candidate for each open position, subject to confirmation by other
+bodies.
 
-NomCom voting members are themselves volunteers that have met certain
-eligibility requirements. The actual NomCom is selected at random from the pool
-of eligible volunteers, with restrictions to ensure that no more than two
-volunteers with the same primary affiliation are chosen.
+NomCom voting members are volunteers that have met certain eligibility
+requirements. The actual NomCom is selected at random from the pool of eligible
+volunteers. Thus, it is important that members of the pool be IETF participants
+likely to have knowledge of IETF processes and Tao. There are restrictions to
+ensure that no more than two volunteers with the same primary affiliation are
+chosen.
 
 {{Section 4.14 of RFC8713}} requires that volunteers must have attended three of
 the previous five in-person meetings. In practice, this has meant that the
 volunteer picked up their registration badge. Current members of the Internet
-Society Board of Trustees, IETF Trust, LLC Board, IAB, and IESG are ineligible.
+Society Board of Trustees and bodies for which the NomCom nominates members are
+ineligible.
 
 {{?RFC8989}} specified an experiment in the wake of six consecutive fully online
 meetings from 2020 to 2021, where the traditional interpretation of the
@@ -76,7 +79,7 @@ This document discusses some of the first principles that inform the design of
 NomCom eligibility, and makes recommendations on how the process of 
 qualification based on attendance should work.
 This document replaces the attendance criteria in {{Section 4.14 of RFC8713}} with
-criteria loosely based on those in {{?RFC8989}}.
+criteria based on those in {{?RFC8989}}.
 The other paragraphs of {{Section 4.14 of RFC8713}}
 remain intact.
 
@@ -95,9 +98,10 @@ community." For many years, in-person attendance was a reasonable proxy for the
 commitment associated with being a member. Two days of travel and an attendance
 fee is a relatively large expenditure of time and money. Additionally, in-person
 attendance is thought to increase personal familiarity with candidates for
-leadership positions, although there is no mechanism to ensure any interactions.
-Finally, the NomCom interview process was largely conducted in-person at IETF
-meetings, so the ability to attend was a prerequisite to participate.
+leadership positions and with the spirit of the IETF, although there is no
+mechanism to ensure any interactions. Finally, the NomCom interview process was
+largely conducted in-person at IETF meetings, so the ability to attend was a
+prerequisite to participate.
 
 Beyond the principle that the community should govern itself, selecting
 volunteers with a demonstrated commitment to the organization, while limiting
@@ -107,9 +111,10 @@ community as a whole.
 
 However, attitudes to business travel evolve, and remote meeting technology
 continues to improve, to the extent that many longstanding community members
-choose to participate remotely. The system has always excluded community members
-due to cost or personal reasons. Further, the NomCom can now fully complete its
-business using online tools.
+choose to participate remotely. The system has always excluded some from
+attendance, and thus qualification from the NomCom, due to cost or personal
+reasons. Further, the NomCom can now fully complete its business using online
+tools.
 
 Counting remote attendance lowers the barriers to entry. As IETF is committed to
 having a no-fee remote option ({{?I-D.ietf-shmoo-remote-fee}}) the only
@@ -119,8 +124,7 @@ requirement for the NomCom to function entirely remotely, including remote-only
 attendees in the pool is likely to effectively require a remote component to
 NomCom operations.
 
-Finally, it is historically difficult to recruit volunteers for NomCom, so
-overly restrictive criteria work against getting a deep talent pool.
+Finally, overly restrictive criteria work against getting a deep talent pool.
 
 # Criteria
 
@@ -187,7 +191,7 @@ and the IETF Secretariat to further investigate.
 
 While loosening eligibility criteria lowers the cost to an attacker of producing
 eligible volunteers, it also increases the number of "legitimate" volunteers
-that increases the difficulty and detectability of an attack.
+that increases the difficulty of an attack.
 
 ## The Two-Per-Organization Limit
 
@@ -213,7 +217,7 @@ volunteers necessary to capture the process, an attack requires a surge in
 attendees over the course of a year. IETF Secretariat SHOULD analyze unexplained
 surges in attendance to look for signs of manipulating the eligibility
 requirements (e.g. logging in to a single session and then immediately logging
-out). In the event of malfeasance, the leadership would then have months to
+out). In the event of abuse of process, the leadership would then have months to
 adjust policy in response before the NomCom cycle begins.
 
 # IANA Considerations
@@ -276,7 +280,7 @@ For L = 300, the A required to exceed a 50% probability of capture is 771.
 
 ## Since draft-duke-elegy-rfc8989bis-00
 
-* Editorial suggestions from Luc André Burdet
+* Editorial improvements
 
 ## Since draft-duke-gendispatch-rfc8989bis-00
 
@@ -288,7 +292,8 @@ For L = 300, the A required to exceed a 50% probability of capture is 771.
 Brian Carpenter and Stephen Farrell wrote RFC8989, which provides the core of
 this document.
 
-Luc André Burdet provided useful editorial suggestions.
+Luc André Burdet, Brian Carpenter, and Donald Eastlake provided useful
+editorial suggestions.
 
 {:numbered="false"}
 
