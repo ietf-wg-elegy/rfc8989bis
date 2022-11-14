@@ -18,11 +18,11 @@ eligibility. This document updates RFC8713 by building a new set of eligibility
 criteria from first principles, with consideration for the increased salience of
 remote attendance. 
     " name="description">
-<meta content="xml2rfc 3.15.0" name="generator">
+<meta content="xml2rfc 3.15.2" name="generator">
 <meta content="Internet-Draft" name="keyword">
 <meta content="draft-ietf-elegy-rfc8989bis-latest" name="ietf.draft">
 <!-- Generator version information:
-  xml2rfc 3.15.0
+  xml2rfc 3.15.2
     Python 3.10.5
     appdirs 1.4.4
     ConfigArgParse 1.5.3
@@ -30,7 +30,6 @@ remote attendance.
     html5lib 1.1
     intervaltree 3.1.0
     Jinja2 3.1.2
-    kitchen 1.2.6
     lxml 4.9.1
     MarkupSafe 2.1.1
     pycountry 22.3.5
@@ -38,6 +37,7 @@ remote attendance.
     requests 2.27.1
     setuptools 59.4.0
     six 1.16.0
+    wcwidth 0.2.5
 -->
 <link href="draft-ietf-elegy-rfc8989bis.xml" rel="alternate" type="application/rfc+xml">
 <link href="#copyright" rel="license">
@@ -381,7 +381,7 @@ dl {
 dl > dt {
   float: left;
   margin-right: 1em;
-  min-width: 20ch;
+  min-width: 12ch;
 }
 dl.dlNewline > dt {
   float: none;
@@ -1044,11 +1044,11 @@ svg :is([stroke="fill"], [fill^="#fff"]) {
 <thead><tr>
 <td class="left">Internet-Draft</td>
 <td class="center">RFC8989bis</td>
-<td class="right">October 2022</td>
+<td class="right">November 2022</td>
 </tr></thead>
 <tfoot><tr>
 <td class="left">Duke</td>
-<td class="center">Expires 9 April 2023</td>
+<td class="center">Expires 18 May 2023</td>
 <td class="right">[Page]</td>
 </tr></tfoot>
 </table>
@@ -1067,12 +1067,12 @@ svg :is([stroke="fill"], [fill^="#fff"]) {
 <a href="https://www.rfc-editor.org/rfc/rfc8713" class="eref">8713</a> (if approved)</dd>
 <dt class="label-published">Published:</dt>
 <dd class="published">
-<time datetime="2022-10-06" class="published">6 October 2022</time>
+<time datetime="2022-11-14" class="published">14 November 2022</time>
     </dd>
 <dt class="label-intended-status">Intended Status:</dt>
 <dd class="intended-status">Best Current Practice</dd>
 <dt class="label-expires">Expires:</dt>
-<dd class="expires"><time datetime="2023-04-09">9 April 2023</time></dd>
+<dd class="expires"><time datetime="2023-05-18">18 May 2023</time></dd>
 <dt class="label-authors">Author:</dt>
 <dd class="authors">
 <div class="author">
@@ -1123,7 +1123,7 @@ remote attendance.<a href="#section-abstract-1" class="pilcrow">¶</a></p>
         time. It is inappropriate to use Internet-Drafts as reference
         material or to cite them other than as "work in progress."<a href="#section-boilerplate.1-3" class="pilcrow">¶</a></p>
 <p id="section-boilerplate.1-4">
-        This Internet-Draft will expire on 9 April 2023.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
+        This Internet-Draft will expire on 18 May 2023.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="copyright">
@@ -1235,16 +1235,19 @@ remote attendance.<a href="#section-abstract-1" class="pilcrow">¶</a></p>
 <p id="section-1-1"><span>[<a href="#RFC8713" class="cite xref">RFC8713</a>]</span> defines the process for selection of the Internet Architecture
 Board (IAB), Internet Engineering Steering Group (IESG), IETF Trust, and one
 IETF LLC Director. A key actor in the process is the Nominating Committee
-(NomCom), which nominates a single candidate for each open position from the
-pool of volunteers, subject to confirmation by other bodies.<a href="#section-1-1" class="pilcrow">¶</a></p>
-<p id="section-1-2">NomCom voting members are themselves volunteers that have met certain
-eligibility requirements. The actual NomCom is selected at random from the pool
-of eligible volunteers, with restrictions to ensure that no more than two
-volunteers with the same primary affiliation are chosen.<a href="#section-1-2" class="pilcrow">¶</a></p>
+(NomCom), which nominates a single candidate for each open position, subject to
+confirmation by other bodies.<a href="#section-1-1" class="pilcrow">¶</a></p>
+<p id="section-1-2">NomCom voting members are volunteers that have met certain eligibility
+requirements. The actual NomCom is selected at random from the pool of eligible
+volunteers. Thus, it is important that members of the pool be IETF participants
+likely to have knowledge of IETF processes and Tao. There are restrictions to
+ensure that no more than two volunteers with the same primary affiliation are
+chosen.<a href="#section-1-2" class="pilcrow">¶</a></p>
 <p id="section-1-3"><span><a href="https://rfc-editor.org/rfc/rfc8713#section-4.14" class="relref">Section 4.14</a> of [<a href="#RFC8713" class="cite xref">RFC8713</a>]</span> requires that volunteers must have attended three of
 the previous five meetings. In practice, this has meant that the volunteer
 picked up their registration badge. Current members of the Internet Society
-Board of Trustees, IETF Trust, LLC Board, IAB, and IESG are ineligible.<a href="#section-1-3" class="pilcrow">¶</a></p>
+Board of Trustees and bodies for which the NomCom nominates members are
+ineligible.<a href="#section-1-3" class="pilcrow">¶</a></p>
 <p id="section-1-4"><span>[<a href="#RFC8989" class="cite xref">RFC8989</a>]</span> specified an experiment in the wake of six consecutive fully online
 meetings from 2020 to 2021, where the traditional interpretation of the
 requirement would have resulted in no eligible volunteers. It extended the
@@ -1258,8 +1261,8 @@ RFC Editor queue.<a href="#section-1-5" class="pilcrow">¶</a></p>
 NomCom eligibility, and makes recommendations on how the process of
 qualification based on attendance should work.<a href="#section-1-6" class="pilcrow">¶</a></p>
 <p id="section-1-7">This document replaces the attendance criteria in <span><a href="https://rfc-editor.org/rfc/rfc8713#section-4.14" class="relref">Section 4.14</a> of [<a href="#RFC8713" class="cite xref">RFC8713</a>]</span>
-with criteria loosely based on those in <span>[<a href="#RFC8989" class="cite xref">RFC8989</a>]</span>, and obsoletes RFC8989 to
-make it clear that that document has been superceded. The other paragraphs of
+with criteria based on those in <span>[<a href="#RFC8989" class="cite xref">RFC8989</a>]</span>, and obsoletes RFC8989 to make it
+clear that that document has been superceded. The other paragraphs of
 <span><a href="https://rfc-editor.org/rfc/rfc8713#section-4.14" class="relref">Section 4.14</a> of [<a href="#RFC8713" class="cite xref">RFC8713</a>]</span> remain intact.<a href="#section-1-7" class="pilcrow">¶</a></p>
 </section>
 </div>
@@ -1285,9 +1288,10 @@ community." For many years, in-person attendance was a reasonable proxy for the
 commitment associated with being a member. Two days of travel and an attendance
 fee is a relatively large expenditure of time and money. Additionally, in-person
 attendance is thought to increase personal familiarity with candidates for
-leadership positions, although there is no mechanism to ensure any interactions.
-Finally, the NomCom interview process was largely conducted in-person at IETF
-meetings, so the ability to attend was a prerequisite to participate.<a href="#section-3-1" class="pilcrow">¶</a></p>
+leadership positions and with the spirit of the IETF, although there is no
+mechanism to ensure any interactions. Finally, the NomCom interview process was
+largely conducted in-person at IETF meetings, so the ability to attend was a
+prerequisite to participate.<a href="#section-3-1" class="pilcrow">¶</a></p>
 <p id="section-3-2">Beyond the principle that the community should govern itself, selecting
 volunteers with a demonstrated commitment to the organization, while limiting
 the number from any organization, avoids the potential for mischief via
@@ -1295,9 +1299,10 @@ nominations that disrupt IETF operations or work against the interests of the
 community as a whole.<a href="#section-3-2" class="pilcrow">¶</a></p>
 <p id="section-3-3">However, attitudes to business travel evolve, and remote meeting technology
 continues to improve, to the extent that many longstanding community members
-choose to participate remotely. The system has always excluded community members
-due to cost or personal reasons. Further, the NomCom can now fully complete its
-business using online tools.<a href="#section-3-3" class="pilcrow">¶</a></p>
+choose to participate remotely. The system has always excluded some from
+attendance, and thus qualification from the NomCom, due to cost or personal
+reasons. Further, the NomCom can now fully complete its business using online
+tools.<a href="#section-3-3" class="pilcrow">¶</a></p>
 <p id="section-3-4">Counting remote attendance lowers the barriers to entry. As IETF is committed to
 having a no-fee remote option (<span>[<a href="#I-D.ietf-shmoo-remote-fee" class="cite xref">I-D.ietf-shmoo-remote-fee</a>]</span>) the only
 required investment is to log on once per meeting at a specific time (sometimes
@@ -1305,8 +1310,7 @@ a locally inconvenient hour). While this document does not formally impose a
 requirement for the NomCom to function entirely remotely, including remote-only
 attendees in the pool is likely to effectively require a remote component to
 NomCom operations.<a href="#section-3-4" class="pilcrow">¶</a></p>
-<p id="section-3-5">Finally, it is historically difficult to recruit volunteers for NomCom, so
-overly restrictive criteria work against getting a deep talent pool.<a href="#section-3-5" class="pilcrow">¶</a></p>
+<p id="section-3-5">Finally, overly restrictive criteria work against getting a deep talent pool.<a href="#section-3-5" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="criteria">
@@ -1380,7 +1384,7 @@ recognizes as a part of the community is an early-warning system for leadership
 and the IETF Secretariat to further investigate.<a href="#section-6.1-2" class="pilcrow">¶</a></p>
 <p id="section-6.1-3">While loosening eligibility criteria lowers the cost to an attacker of producing
 eligible volunteers, it also increases the number of "legitimate" volunteers
-that increases the difficulty and detectability of an attack.<a href="#section-6.1-3" class="pilcrow">¶</a></p>
+that increases the difficulty of an attack.<a href="#section-6.1-3" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="the-two-per-organization-limit">
@@ -1412,7 +1416,7 @@ volunteers necessary to capture the process, an attack requires a surge in
 attendees over the course of a year. IETF Secretariat SHOULD analyze unexplained
 surges in attendance to look for signs of manipulating the eligibility
 requirements (e.g. logging in to a single session and then immediately logging
-out). In the event of malfeasance, the leadership would then have months to
+out). In the event of abuse of process, the leadership would then have months to
 adjust policy in response before the NomCom cycle begins.<a href="#section-6.3-1" class="pilcrow">¶</a></p>
 </section>
 </div>
@@ -1528,7 +1532,7 @@ publication of a final version of this document.<a href="#appendix-B-1.1.1" clas
 <a href="#appendix-B.1" class="section-number selfRef">B.1. </a><a href="#name-since-draft-duke-elegy-rfc8" class="section-name selfRef">Since draft-duke-elegy-rfc8989bis-00</a>
         </h3>
 <ul class="normal">
-<li class="normal" id="appendix-B.1-1.1">Editorial suggestions from Luc Andre Burdet<a href="#appendix-B.1-1.1" class="pilcrow">¶</a>
+<li class="normal" id="appendix-B.1-1.1">Editorial improvements<a href="#appendix-B.1-1.1" class="pilcrow">¶</a>
 </li>
         </ul>
 </section>
@@ -1555,7 +1559,8 @@ publication of a final version of this document.<a href="#appendix-B-1.1.1" clas
       </h2>
 <p id="appendix-C-1">Brian Carpenter and Stephen Farrell wrote RFC8989, which provides the core of
 this document.<a href="#appendix-C-1" class="pilcrow">¶</a></p>
-<p id="appendix-C-2">Luc Andre Burdet provided useful editorial suggestions.<a href="#appendix-C-2" class="pilcrow">¶</a></p>
+<p id="appendix-C-2">Luc Andre Burdet, Brian Carpenter, and Donald Eastlake provided useful
+editorial suggestions.<a href="#appendix-C-2" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="authors-addresses">

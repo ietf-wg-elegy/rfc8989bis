@@ -4,10 +4,10 @@
 
 ELEGY                                                            M. Duke
 Internet-Draft                                                Google LLC
-Obsoletes: 8989 (if approved)                             6 October 2022
+Obsoletes: 8989 (if approved)                           14 November 2022
 Updates: 8713 (if approved)                                             
 Intended status: Best Current Practice                                  
-Expires: 9 April 2023
+Expires: 18 May 2023
 
 
                     Nominating Committee Eligibility
@@ -49,7 +49,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 9 April 2023.
+   This Internet-Draft will expire on 18 May 2023.
 
 Copyright Notice
 
@@ -95,20 +95,20 @@ Table of Contents
    Architecture Board (IAB), Internet Engineering Steering Group (IESG),
    IETF Trust, and one IETF LLC Director.  A key actor in the process is
    the Nominating Committee (NomCom), which nominates a single candidate
-   for each open position from the pool of volunteers, subject to
-   confirmation by other bodies.
+   for each open position, subject to confirmation by other bodies.
 
-   NomCom voting members are themselves volunteers that have met certain
+   NomCom voting members are volunteers that have met certain
    eligibility requirements.  The actual NomCom is selected at random
-   from the pool of eligible volunteers, with restrictions to ensure
-   that no more than two volunteers with the same primary affiliation
-   are chosen.
+   from the pool of eligible volunteers.  Thus, it is important that
+   members of the pool be IETF participants likely to have knowledge of
+   IETF processes and Tao. There are restrictions to ensure that no more
+   than two volunteers with the same primary affiliation are chosen.
 
    Section 4.14 of [RFC8713] requires that volunteers must have attended
    three of the previous five meetings.  In practice, this has meant
    that the volunteer picked up their registration badge.  Current
-   members of the Internet Society Board of Trustees, IETF Trust, LLC
-   Board, IAB, and IESG are ineligible.
+   members of the Internet Society Board of Trustees and bodies for
+   which the NomCom nominates members are ineligible.
 
    [RFC8989] specified an experiment in the wake of six consecutive
    fully online meetings from 2020 to 2021, where the traditional
@@ -127,10 +127,9 @@ Table of Contents
    process of qualification based on attendance should work.
 
    This document replaces the attendance criteria in Section 4.14 of
-   [RFC8713] with criteria loosely based on those in [RFC8989], and
-   obsoletes RFC8989 to make it clear that that document has been
-   superceded.  The other paragraphs of Section 4.14 of [RFC8713] remain
-   intact.
+   [RFC8713] with criteria based on those in [RFC8989], and obsoletes
+   RFC8989 to make it clear that that document has been superceded.  The
+   other paragraphs of Section 4.14 of [RFC8713] remain intact.
 
 2.  Conventions and Definitions
 
@@ -148,10 +147,10 @@ Table of Contents
    Two days of travel and an attendance fee is a relatively large
    expenditure of time and money.  Additionally, in-person attendance is
    thought to increase personal familiarity with candidates for
-   leadership positions, although there is no mechanism to ensure any
-   interactions.  Finally, the NomCom interview process was largely
-   conducted in-person at IETF meetings, so the ability to attend was a
-   prerequisite to participate.
+   leadership positions and with the spirit of the IETF, although there
+   is no mechanism to ensure any interactions.  Finally, the NomCom
+   interview process was largely conducted in-person at IETF meetings,
+   so the ability to attend was a prerequisite to participate.
 
    Beyond the principle that the community should govern itself,
    selecting volunteers with a demonstrated commitment to the
@@ -162,9 +161,9 @@ Table of Contents
    However, attitudes to business travel evolve, and remote meeting
    technology continues to improve, to the extent that many longstanding
    community members choose to participate remotely.  The system has
-   always excluded community members due to cost or personal reasons.
-   Further, the NomCom can now fully complete its business using online
-   tools.
+   always excluded some from attendance, and thus qualification from the
+   NomCom, due to cost or personal reasons.  Further, the NomCom can now
+   fully complete its business using online tools.
 
    Counting remote attendance lowers the barriers to entry.  As IETF is
    committed to having a no-fee remote option
@@ -175,8 +174,7 @@ Table of Contents
    remote-only attendees in the pool is likely to effectively require a
    remote component to NomCom operations.
 
-   Finally, it is historically difficult to recruit volunteers for
-   NomCom, so overly restrictive criteria work against getting a deep
+   Finally, overly restrictive criteria work against getting a deep
    talent pool.
 
 4.  Criteria
@@ -250,8 +248,7 @@ Table of Contents
 
    While loosening eligibility criteria lowers the cost to an attacker
    of producing eligible volunteers, it also increases the number of
-   "legitimate" volunteers that increases the difficulty and
-   detectability of an attack.
+   "legitimate" volunteers that increases the difficulty of an attack.
 
 6.2.  The Two-Per-Organization Limit
 
@@ -281,8 +278,8 @@ Table of Contents
    Secretariat SHOULD analyze unexplained surges in attendance to look
    for signs of manipulating the eligibility requirements (e.g. logging
    in to a single session and then immediately logging out).  In the
-   event of malfeasance, the leadership would then have months to adjust
-   policy in response before the NomCom cycle begins.
+   event of abuse of process, the leadership would then have months to
+   adjust policy in response before the NomCom cycle begins.
 
 7.  IANA Considerations
 
@@ -380,7 +377,7 @@ Appendix B.  Change Log
 
 B.1.  Since draft-duke-elegy-rfc8989bis-00
 
-   *  Editorial suggestions from Luc Andre Burdet
+   *  Editorial improvements
 
 B.2.  Since draft-duke-gendispatch-rfc8989bis-00
 
@@ -393,7 +390,8 @@ Appendix C.  Acknowledgments
    Brian Carpenter and Stephen Farrell wrote RFC8989, which provides the
    core of this document.
 
-   Luc Andre Burdet provided useful editorial suggestions.
+   Luc Andre Burdet, Brian Carpenter, and Donald Eastlake provided
+   useful editorial suggestions.
 
 Author's Address
 
