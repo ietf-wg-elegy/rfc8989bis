@@ -234,7 +234,7 @@ success.
 
 This is much harder to detect than the number of additional volunteers
 associated with NomCom capture. However, the voting member recall procedure in
-{{?Section 5.7 of RFC8713}} exists to allow removal and replacement of such
+{{Section 5.7 of RFC8713}} exists to allow removal and replacement of such
 figures.
 
 ## Additional remedies
@@ -309,6 +309,7 @@ For L = 300, the A required to exceed a 50% probability of capture is 771.
 
 ## Since draft-duke-elegy-rfc8989bis-00
 
+* Added more security considerations
 * Editorial improvements
 
 ## Since draft-duke-gendispatch-rfc8989bis-00
