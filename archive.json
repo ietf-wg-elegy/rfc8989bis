@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2022-11-10T00:34:17.133492+00:00",
+  "timestamp": "2022-11-15T00:32:08.216757+00:00",
   "repo": "ietf-wg-elegy/rfc8989bis",
   "labels": [
     {
@@ -190,6 +190,22 @@
           "updatedAt": "2022-11-09T16:21:21Z"
         }
       ]
+    },
+    {
+      "number": 11,
+      "id": "I_kwDOH7Dq_M5WV4x5",
+      "title": "More Security Considerations",
+      "url": "https://github.com/ietf-wg-elegy/rfc8989bis/issues/11",
+      "state": "OPEN",
+      "author": "martinduke",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Some things that came up in London:\r\n\r\n- a different threat is a single person trying to get on the Nomcom to be disruptive (can they be expelled?)\r\n- Nomcom confirmation\r\n- fee waivers are a lever\r\n-  maybe add an eligibility challenge step?",
+      "createdAt": "2022-11-14T18:58:41Z",
+      "updatedAt": "2022-11-14T18:58:41Z",
+      "closedAt": null,
+      "comments": []
     }
   ],
   "pulls": [
@@ -345,26 +361,68 @@
       "id": "PR_kwDOH7Dq_M5AWS9F",
       "title": "Donald Eastlake nits",
       "url": "https://github.com/ietf-wg-elegy/rfc8989bis/pull/8",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "martinduke",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "",
       "createdAt": "2022-10-06T20:54:13Z",
-      "updatedAt": "2022-10-06T21:02:02Z",
+      "updatedAt": "2022-11-14T20:51:39Z",
       "baseRepository": "ietf-wg-elegy/rfc8989bis",
       "baseRefName": "main",
       "baseRefOid": "48b5f84b98d207384f29ee952eec6fc85ac6ea61",
       "headRepository": "ietf-wg-elegy/rfc8989bis",
       "headRefName": "eastlake",
       "headRefOid": "7847b2071bda02abbcd9338afab68341fc62dfb4",
+      "closedAt": "2022-11-14T20:51:38Z",
+      "mergedAt": "2022-11-14T20:51:38Z",
+      "mergedBy": "martinduke",
+      "mergeCommit": {
+        "oid": "33fdd7bc19eb3a5957bb466d6a3d005711797eef"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 12,
+      "id": "PR_kwDOH7Dq_M5C38Zt",
+      "title": "New security considerations from London",
+      "url": "https://github.com/ietf-wg-elegy/rfc8989bis/pull/12",
+      "state": "OPEN",
+      "author": "martinduke",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Fixes #11 ",
+      "createdAt": "2022-11-14T20:51:29Z",
+      "updatedAt": "2022-11-14T21:19:41Z",
+      "baseRepository": "ietf-wg-elegy/rfc8989bis",
+      "baseRefName": "main",
+      "baseRefOid": "33fdd7bc19eb3a5957bb466d6a3d005711797eef",
+      "headRepository": "ietf-wg-elegy/rfc8989bis",
+      "headRefName": "security",
+      "headRefOid": "84d19479ad764e34402d09f405ee884c0e4d0bba",
       "closedAt": null,
       "mergedAt": null,
       "mergedBy": null,
       "mergeCommit": null,
       "comments": [],
-      "reviews": []
+      "reviews": [
+        {
+          "id": "PRR_kwDOH7Dq_M5GU0s0",
+          "commit": {
+            "abbreviatedOid": "84d1947"
+          },
+          "author": "becarpenter",
+          "authorAssociation": "NONE",
+          "state": "APPROVED",
+          "body": "Works for me",
+          "createdAt": "2022-11-14T21:19:41Z",
+          "updatedAt": "2022-11-14T21:19:41Z",
+          "comments": []
+        }
+      ]
     }
   ]
 }
