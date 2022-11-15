@@ -227,15 +227,21 @@ adjust policy in response before the NomCom cycle begins.
 
 ## Disruptive candidates
 
-An attacker might seek to install a smaller number of volunteers on the NomCom
-to disrupt the process and prevent the timely conclusion of its work. This could
-involve a series of aliases for each volunteer to improve their chances of
-success.
+Note that the normalization of consistent remote participation allows for a
+single individual to mount an attack that previously required coordination. By
+registering under a number of different identities over a year, an individual
+can make each of those identities NomCom eligible and then serve under any one
+of them that is selected for the NomCom.  Once selected, an individual could
+seek to disrupt the process or prevent the timely conclusion of its work.
 
-This is much harder to detect than the number of additional volunteers
-associated with NomCom capture. However, the voting member recall procedure in
-{{Section 5.7 of RFC8713}} exists to allow removal and replacement of such
-figures.
+This attack is much harder to detect or prevent than equivalent attacks were
+previously, as it does not require coordination among multiple attendees.
+While the attacker cannot be sure of fee waivers for some or all of the
+different identities, the lower cost for remote participation also makes this
+attack more feasible than it would have been under prior rules.
+
+However, the voting member recall procedure in {{Section 5.7 of RFC8713}} exists
+to allow removal and replacement of disruptive figures.
 
 ## Additional remedies
 
