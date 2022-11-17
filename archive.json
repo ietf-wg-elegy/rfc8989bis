@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2022-11-15T00:32:08.216757+00:00",
+  "timestamp": "2022-11-17T00:32:01.668260+00:00",
   "repo": "ietf-wg-elegy/rfc8989bis",
   "labels": [
     {
@@ -396,13 +396,13 @@
       "labels": [],
       "body": "Fixes #11 ",
       "createdAt": "2022-11-14T20:51:29Z",
-      "updatedAt": "2022-11-14T21:19:41Z",
+      "updatedAt": "2022-11-15T20:40:12Z",
       "baseRepository": "ietf-wg-elegy/rfc8989bis",
       "baseRefName": "main",
       "baseRefOid": "33fdd7bc19eb3a5957bb466d6a3d005711797eef",
       "headRepository": "ietf-wg-elegy/rfc8989bis",
       "headRefName": "security",
-      "headRefOid": "84d19479ad764e34402d09f405ee884c0e4d0bba",
+      "headRefOid": "3870fc911dd311e1bfa604e3c9b0309625c2ce7f",
       "closedAt": null,
       "mergedAt": null,
       "mergedBy": null,
