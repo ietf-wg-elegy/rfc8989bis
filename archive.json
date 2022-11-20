@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2022-11-17T00:32:01.668260+00:00",
+  "timestamp": "2022-11-20T00:34:55.232118+00:00",
   "repo": "ietf-wg-elegy/rfc8989bis",
   "labels": [
     {
@@ -396,7 +396,7 @@
       "labels": [],
       "body": "Fixes #11 ",
       "createdAt": "2022-11-14T20:51:29Z",
-      "updatedAt": "2022-11-15T20:40:12Z",
+      "updatedAt": "2022-11-17T07:00:52Z",
       "baseRepository": "ietf-wg-elegy/rfc8989bis",
       "baseRefName": "main",
       "baseRefOid": "33fdd7bc19eb3a5957bb466d6a3d005711797eef",
@@ -421,6 +421,68 @@
           "createdAt": "2022-11-14T21:19:41Z",
           "updatedAt": "2022-11-14T21:19:41Z",
           "comments": []
+        },
+        {
+          "id": "PRR_kwDOH7Dq_M5GjqKe",
+          "commit": {
+            "abbreviatedOid": "3870fc9"
+          },
+          "author": "larseggert",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "CHANGES_REQUESTED",
+          "body": "",
+          "createdAt": "2022-11-17T06:51:30Z",
+          "updatedAt": "2022-11-17T07:00:33Z",
+          "comments": [
+            {
+              "originalPosition": 10,
+              "body": "```suggestion\r\nThe most potent threat associated with NomCom eligibility is that an\r\n```\r\nIt's a threat, not a model.",
+              "createdAt": "2022-11-17T06:51:30Z",
+              "updatedAt": "2022-11-17T07:00:52Z"
+            },
+            {
+              "originalPosition": 11,
+              "body": "```suggestion\r\norganization or group of coordinating organizations would attempt to obtain a majority of\r\n```",
+              "createdAt": "2022-11-17T06:51:51Z",
+              "updatedAt": "2022-11-17T07:00:33Z"
+            },
+            {
+              "originalPosition": 20,
+              "body": "```suggestion\r\nof creating a NomCom-eligible volunteer from three in-person trips of ~5 days each\r\n```",
+              "createdAt": "2022-11-17T06:53:30Z",
+              "updatedAt": "2022-11-17T07:00:33Z"
+            },
+            {
+              "originalPosition": 26,
+              "body": "```suggestion\r\nnot be deterred in either case, while others might now find such an attack to not be\r\n```",
+              "createdAt": "2022-11-17T06:54:57Z",
+              "updatedAt": "2022-11-17T07:00:33Z"
+            },
+            {
+              "originalPosition": 40,
+              "body": "```suggestion\r\nrecognizes as a part of the community, is an early-warning sign for the community, leadership\r\n```",
+              "createdAt": "2022-11-17T06:55:42Z",
+              "updatedAt": "2022-11-17T07:00:33Z"
+            },
+            {
+              "originalPosition": 43,
+              "body": "In-person fee waivers are issued by the IETF and IRTF chairs, but remote ones are supposed to be freely available, see draft-ietf-shmoo-remote-fee (which will be a BCP soon). We may need to add something to the security considerations of draft-ietf-shmoo-remote-fee if the intent is for someone to have the ability to deny those remote waivers.",
+              "createdAt": "2022-11-17T06:58:00Z",
+              "updatedAt": "2022-11-17T07:00:33Z"
+            },
+            {
+              "originalPosition": 71,
+              "body": "```suggestion\r\nregistering for IETF meetings using a number of different identities over a year, an individual\r\n```",
+              "createdAt": "2022-11-17T06:58:35Z",
+              "updatedAt": "2022-11-17T07:00:33Z"
+            },
+            {
+              "originalPosition": 91,
+              "body": "The secretariat is not the IETF police. They would only provide data to leadership, and someone in leadership would need to make a decision. (Please check this wherever you talk about the secretariat doing something.)",
+              "createdAt": "2022-11-17T07:00:17Z",
+              "updatedAt": "2022-11-17T07:00:33Z"
+            }
+          ]
         }
       ]
     }
