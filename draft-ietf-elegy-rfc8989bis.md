@@ -189,10 +189,11 @@ an attacker must produce 365 volunteers to exceed a 50% chance of NomCom
 capture (see {{capture-math}}).
 
 A sudden surge in the number of volunteers, particularly of people that no one
-recognizes as a part of the community, is an early-warning sign for the community, leadership
-and the IETF Secretariat to further investigate. One response would be to deny
-fee waivers to suspect attendees, as these are issued at the discretion of the
-IETF and IRTF chairs.
+recognizes as a part of the community, is an early-warning sign for the
+community, leadership and the IETF Secretariat to further investigate. The IETF
+should monitor and assess a sudden increase in the number of online registration
+fee waivers awarded in accordance with
+{{Section 4 of I-D.ietf-shmoo-remote-fee}}.
 
 While loosening eligibility criteria lowers the cost to an attacker of producing
 eligible volunteers, it also increases the number of "legitimate" volunteers
@@ -219,11 +220,11 @@ for a 50% chance of NomCom capture (see {{capture-math}}).
 
 Attendance at 3 meetings requires at least 8 months. Given the volume of
 volunteers necessary to capture the process, an attack requires a surge in
-attendees over the course of a year. IETF Secretariat SHOULD analyze unexplained
-surges in attendance to look for signs of manipulating the eligibility
-requirements (e.g. logging in to a single session and then immediately logging
-out). In the event of abuse of process, the leadership would then have months to
-adjust policy in response before the NomCom cycle begins.
+attendees over the course of a year. The IETF Secretariat SHOULD analyze
+unexplained surges in attendance to look for signs of manipulating the
+eligibility requirements (e.g. logging in to a single session and then
+immediately logging out). In the event of abuse of process, the leadership would
+then have months to adjust policy in response before the NomCom cycle begins.
 
 ## Disruptive candidates
 
@@ -248,8 +249,7 @@ to allow removal and replacement of disruptive figures.
 Additional changes to the process to further obstruct attacks against the
 NomCom are beyond the scope of this document. However, a challenge process
 against volunteers with a suspicious reported affiliation, or that might be
-aliases of a single volunteer, could trigger an investigation by the
-Secretariat.
+aliases of a single volunteer, could trigger an investigation.
 
 Similarly, the challenge to the random selection described in
 {{Section 4.17 of RFC8713}} can explicitly include appeals against the data
