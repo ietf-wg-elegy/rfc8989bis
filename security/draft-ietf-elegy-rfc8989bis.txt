@@ -4,10 +4,10 @@
 
 ELEGY                                                            M. Duke
 Internet-Draft                                                Google LLC
-Obsoletes: 8989 (if approved)                           15 November 2022
+Obsoletes: 8989 (if approved)                           22 November 2022
 Updates: 8713 (if approved)                                             
 Intended status: Best Current Practice                                  
-Expires: 19 May 2023
+Expires: 26 May 2023
 
 
                     Nominating Committee Eligibility
@@ -49,7 +49,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 19 May 2023.
+   This Internet-Draft will expire on 26 May 2023.
 
 Copyright Notice
 
@@ -216,11 +216,11 @@ Table of Contents
 
 6.1.  NomCom capture
 
-   The most potent threat model associated with NomCom eligibility is
-   that an organization or group of organizations would attempt to
-   obtain a majority of NomCom positions, in order to select an IETF
-   leadership in support of an agenda that might be self-serving and
-   against the interests of the community as a whole.
+   The most potent threat associated with NomCom eligibility is that an
+   organization or group of organizations would attempt to obtain a
+   majority of NomCom positions, in order to select an IETF leadership
+   in support of an agenda that might be self-serving and against the
+   interests of the community as a whole.
 
    Note that [RFC8713] lets the Chair decide the NomCom voting
    requirement, so a simple majority may be inadequate.  However, 7 of
