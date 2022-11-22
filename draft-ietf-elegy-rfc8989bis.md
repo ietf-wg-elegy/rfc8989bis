@@ -189,7 +189,7 @@ an attacker must produce 365 volunteers to exceed a 50% chance of NomCom
 capture (see {{capture-math}}).
 
 A sudden surge in the number of volunteers, particularly of people that no one
-recognizes as a part of the community, is an early-warning system for leadership
+recognizes as a part of the community, is an early-warning sign for the community, leadership
 and the IETF Secretariat to further investigate. One response would be to deny
 fee waivers to suspect attendees, as these are issued at the discretion of the
 IETF and IRTF chairs.
