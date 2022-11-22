@@ -229,7 +229,7 @@ adjust policy in response before the NomCom cycle begins.
 
 Note that the normalization of consistent remote participation allows for a
 single individual to mount an attack that previously required coordination. By
-registering under a number of different identities over a year, an individual
+registering for IETF meetings using a number of different identities over a year, an individual
 can make each of those identities NomCom eligible and then serve under any one
 of them that is selected for the NomCom.  Once selected, an individual could
 seek to disrupt the process or prevent the timely conclusion of its work.
