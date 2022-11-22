@@ -175,7 +175,7 @@ Whatever the merits of admitting remote attendees, it reduces the minimum cost
 of creating a NomCom-eligible volunteer from three in-person trips of ~5 days each
 over the course of at least 8 months, to zero financial cost and the time
 required to log in three times over at least 8 months. Some organizations might
-not be deterred in either case, while others might now find such an attack to be
+not be deterred in either case, while others might now find such an attack to not be
 feasible.
 
 ### A Surge of Volunteers
