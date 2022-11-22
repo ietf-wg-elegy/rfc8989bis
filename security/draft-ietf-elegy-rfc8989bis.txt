@@ -217,10 +217,10 @@ Table of Contents
 6.1.  NomCom capture
 
    The most potent threat associated with NomCom eligibility is that an
-   organization or group of organizations would attempt to obtain a
-   majority of NomCom positions, in order to select an IETF leadership
-   in support of an agenda that might be self-serving and against the
-   interests of the community as a whole.
+   organization or group of coordinating organizations would attempt to
+   obtain a majority of NomCom positions, in order to select an IETF
+   leadership in support of an agenda that might be self-serving and
+   against the interests of the community as a whole.
 
    Note that [RFC8713] lets the Chair decide the NomCom voting
    requirement, so a simple majority may be inadequate.  However, 7 of
