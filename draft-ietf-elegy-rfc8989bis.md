@@ -162,7 +162,7 @@ have affected eligibility for NomComs in the recent past.
 ## NomCom capture
 
 The most potent threat associated with NomCom eligibility is that an
-organization or group of organizations would attempt to obtain a majority of
+organization or group of coordinating organizations would attempt to obtain a majority of
 NomCom positions, in order to select an IETF leadership in support of an agenda
 that might be self-serving and against the interests of the community as a
 whole.
