@@ -172,7 +172,7 @@ simple majority may be inadequate. However, 7 of 10 forms a quorum, so at worst
 seven NomCom members working together can almost certainly impose their will.
 
 Whatever the merits of admitting remote attendees, it reduces the minimum cost
-of creating a NomCom-eligible volunteer from three flights and ~5 days of travel
+of creating a NomCom-eligible volunteer from three in-person trips of ~5 days each
 over the course of at least 8 months, to zero financial cost and the time
 required to log in three times over at least 8 months. Some organizations might
 not be deterred in either case, while others might now find such an attack to be
