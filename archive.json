@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2022-11-20T00:34:55.232118+00:00",
+  "timestamp": "2022-11-24T00:33:55.979947+00:00",
   "repo": "ietf-wg-elegy/rfc8989bis",
   "labels": [
     {
@@ -396,13 +396,13 @@
       "labels": [],
       "body": "Fixes #11 ",
       "createdAt": "2022-11-14T20:51:29Z",
-      "updatedAt": "2022-11-17T07:00:52Z",
+      "updatedAt": "2022-11-23T08:16:48Z",
       "baseRepository": "ietf-wg-elegy/rfc8989bis",
       "baseRefName": "main",
       "baseRefOid": "33fdd7bc19eb3a5957bb466d6a3d005711797eef",
       "headRepository": "ietf-wg-elegy/rfc8989bis",
       "headRefName": "security",
-      "headRefOid": "3870fc911dd311e1bfa604e3c9b0309625c2ce7f",
+      "headRefOid": "f69aa81ac04b608eda60e8ee74edc323c38236f5",
       "closedAt": null,
       "mergedAt": null,
       "mergedBy": null,
@@ -481,6 +481,66 @@
               "body": "The secretariat is not the IETF police. They would only provide data to leadership, and someone in leadership would need to make a decision. (Please check this wherever you talk about the secretariat doing something.)",
               "createdAt": "2022-11-17T07:00:17Z",
               "updatedAt": "2022-11-17T07:00:33Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOH7Dq_M5G-FQQ",
+          "commit": {
+            "abbreviatedOid": "3870fc9"
+          },
+          "author": "martinduke",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2022-11-22T19:42:13Z",
+          "updatedAt": "2022-11-22T19:42:13Z",
+          "comments": [
+            {
+              "originalPosition": 43,
+              "body": "In the remote-fee draft, it says: \"If the free option requires additional registration steps, such as applying for a fee waiver, those requirements should be clearly documented.\" An application suggests a possible refusal? Section 4 of that draft also mentions potential misuse. I'll instead refer to Section 4 rather than pinning it on the chairs.",
+              "createdAt": "2022-11-22T19:42:13Z",
+              "updatedAt": "2022-11-22T19:42:13Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOH7Dq_M5HADyi",
+          "commit": {
+            "abbreviatedOid": "3870fc9"
+          },
+          "author": "larseggert",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2022-11-23T08:14:31Z",
+          "updatedAt": "2022-11-23T08:14:32Z",
+          "comments": [
+            {
+              "originalPosition": 43,
+              "body": "I think the intent is that remote fee waivers be available freely, i.e., without much checking or process, and that they only be limited in extraordinary circumstances. So this draft should assume they are widely available to anyone.",
+              "createdAt": "2022-11-23T08:14:32Z",
+              "updatedAt": "2022-11-23T08:14:32Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOH7Dq_M5HAEQ1",
+          "commit": {
+            "abbreviatedOid": "f69aa81"
+          },
+          "author": "larseggert",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "CHANGES_REQUESTED",
+          "body": "",
+          "createdAt": "2022-11-23T08:16:14Z",
+          "updatedAt": "2022-11-23T08:16:48Z",
+          "comments": [
+            {
+              "originalPosition": 75,
+              "body": "We should not task the secretariat with this, since they don't know what an \"unexplained surge\" might look like.\r\n\r\nIf we want a safeguard here, it should IMO take the form of a community review/challenge period.",
+              "createdAt": "2022-11-23T08:16:14Z",
+              "updatedAt": "2022-11-23T08:16:48Z"
             }
           ]
         }
