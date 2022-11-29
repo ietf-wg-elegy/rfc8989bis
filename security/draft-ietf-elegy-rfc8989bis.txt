@@ -4,10 +4,10 @@
 
 ELEGY                                                            M. Duke
 Internet-Draft                                                Google LLC
-Obsoletes: 8989 (if approved)                           22 November 2022
+Obsoletes: 8989 (if approved)                           29 November 2022
 Updates: 8713 (if approved)                                             
 Intended status: Best Current Practice                                  
-Expires: 26 May 2023
+Expires: 2 June 2023
 
 
                     Nominating Committee Eligibility
@@ -49,7 +49,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 26 May 2023.
+   This Internet-Draft will expire on 2 June 2023.
 
 Copyright Notice
 
@@ -281,12 +281,13 @@ Table of Contents
 
    Attendance at 3 meetings requires at least 8 months.  Given the
    volume of volunteers necessary to capture the process, an attack
-   requires a surge in attendees over the course of a year.  The IETF
-   Secretariat SHOULD analyze unexplained surges in attendance to look
-   for signs of manipulating the eligibility requirements (e.g. logging
-   in to a single session and then immediately logging out).  In the
-   event of abuse of process, the leadership would then have months to
-   adjust policy in response before the NomCom cycle begins.
+   requires a surge in attendees over the course of a year.  Such a
+   surge might trigger a community challenge to the list of eligible
+   volunteers, and/or a leadership investigation to detect suspicious
+   behavior (e.g. logging in to a single session and then immediately
+   logging out).  In the event of abuse of process, the leadership would
+   then have months to adjust policy in response before the NomCom cycle
+   begins.
 
 6.2.  Disruptive candidates
 
