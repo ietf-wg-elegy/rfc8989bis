@@ -159,23 +159,26 @@ have affected eligibility for NomComs in the recent past.
 
 # Security Considerations {#security-considerations}
 
-The threat model associated with NomCom eligibility is that an organization or
-group of organizations would attempt to obtain a majority of NomCom positions,
-in order to select an IETF leadership in support of an agenda that might be
-self-serving and against the interests of the community as a whole.
+## NomCom capture
+
+The most potent threat associated with NomCom eligibility is that an
+organization or group of coordinating organizations would attempt to obtain a majority of
+NomCom positions, in order to select an IETF leadership in support of an agenda
+that might be self-serving and against the interests of the community as a
+whole.
 
 Note that {{!RFC8713}} lets the Chair decide the NomCom voting requirement, so a
 simple majority may be inadequate. However, 7 of 10 forms a quorum, so at worst
 seven NomCom members working together can almost certainly impose their will.
 
 Whatever the merits of admitting remote attendees, it reduces the minimum cost
-of creating a NomCom-eligible volunteer from three flights and ~5 days of travel
+of creating a NomCom-eligible volunteer from three in-person trips of ~5 days each
 over the course of at least 8 months, to zero financial cost and the time
-required to log in three times over the course of a year. Some organizations
-might not be deterred in either case, while others might now find such an attack
-to be feasible.
+required to log in three times over at least 8 months. Some organizations might
+not be deterred in either case, while others might now find such an attack to not be
+feasible.
 
-## A Surge of Volunteers
+### A Surge of Volunteers
 
 A large number of "legitimate" volunteers makes it quite difficult to control 6
 of 10 NomCom slots. Setting aside limitations on the number of selections from
@@ -186,14 +189,17 @@ an attacker must produce 365 volunteers to exceed a 50% chance of NomCom
 capture (see {{capture-math}}).
 
 A sudden surge in the number of volunteers, particularly of people that no one
-recognizes as a part of the community is an early-warning system for leadership
-and the IETF Secretariat to further investigate.
+recognizes as a part of the community, is an early-warning sign for the
+community, leadership and the IETF Secretariat to further investigate. The IETF
+should monitor and assess a sudden increase in the number of online registration
+fee waivers awarded in accordance with
+{{Section 4 of I-D.ietf-shmoo-remote-fee}}.
 
 While loosening eligibility criteria lowers the cost to an attacker of producing
 eligible volunteers, it also increases the number of "legitimate" volunteers
 that increases the difficulty of an attack.
 
-## The Two-Per-Organization Limit
+### The Two-Per-Organization Limit
 
 The two-per-organization limit in {{RFC8713}} complicates such an attack.  To
 circumvent it, an organization must either (1) coordinate with at least two
@@ -210,15 +216,44 @@ Assuming that 300 legitimate volunteers are all from different organizations,
 three conspiring organizations would need 771 volunteers (257 per organization)
 for a 50% chance of NomCom capture (see {{capture-math}}).
 
-## One Year of Participation
+### One Year of Participation
 
 Attendance at 3 meetings requires at least 8 months. Given the volume of
 volunteers necessary to capture the process, an attack requires a surge in
-attendees over the course of a year. IETF Secretariat SHOULD analyze unexplained
-surges in attendance to look for signs of manipulating the eligibility
-requirements (e.g. logging in to a single session and then immediately logging
-out). In the event of abuse of process, the leadership would then have months to
-adjust policy in response before the NomCom cycle begins.
+attendees over the course of a year. Such a surge might trigger a community
+challenge to the list of eligible volunteers, and/or a leadership investigation
+to detect suspicious behavior (e.g. logging in to a single session and then
+immediately logging out). In the event of abuse of process, the leadership would
+then have months to adjust policy in response before the NomCom cycle begins.
+
+## Disruptive candidates
+
+Note that the normalization of consistent remote participation allows for a
+single individual to mount an attack that previously required coordination. By
+registering for IETF meetings using a number of different identities over a year, an individual
+can make each of those identities NomCom eligible and then serve under any one
+of them that is selected for the NomCom.  Once selected, an individual could
+seek to disrupt the process or prevent the timely conclusion of its work.
+
+This attack is much harder to detect or prevent than equivalent attacks were
+previously, as it does not require coordination among multiple attendees.
+While the attacker cannot be sure of fee waivers for some or all of the
+different identities, the lower cost for remote participation also makes this
+attack more feasible than it would have been under prior rules.
+
+However, the voting member recall procedure in {{Section 5.7 of RFC8713}} exists
+to allow removal and replacement of disruptive figures.
+
+## Additional remedies
+
+Additional changes to the process to further obstruct attacks against the
+NomCom are beyond the scope of this document. However, a challenge process
+against volunteers with a suspicious reported affiliation, or that might be
+aliases of a single volunteer, could trigger an investigation.
+
+Similarly, the challenge to the random selection described in
+{{Section 4.17 of RFC8713}} can explicitly include appeals against the data
+used to qualify the volunteer, rather than the randomization process.
 
 # IANA Considerations
 
@@ -280,6 +315,7 @@ For L = 300, the A required to exceed a 50% probability of capture is 771.
 
 ## Since draft-duke-elegy-rfc8989bis-00
 
+* Added more security considerations
 * Editorial improvements
 
 ## Since draft-duke-gendispatch-rfc8989bis-00
