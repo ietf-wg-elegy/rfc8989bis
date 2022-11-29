@@ -220,9 +220,9 @@ for a 50% chance of NomCom capture (see {{capture-math}}).
 
 Attendance at 3 meetings requires at least 8 months. Given the volume of
 volunteers necessary to capture the process, an attack requires a surge in
-attendees over the course of a year. The IETF Secretariat SHOULD analyze
-unexplained surges in attendance to look for signs of manipulating the
-eligibility requirements (e.g. logging in to a single session and then
+attendees over the course of a year. Such a surge might trigger a community
+challenge to the list of eligible volunteers, and/or a leadership investigation
+to detect suspicious behavior (e.g. logging in to a single session and then
 immediately logging out). In the event of abuse of process, the leadership would
 then have months to adjust policy in response before the NomCom cycle begins.
 
