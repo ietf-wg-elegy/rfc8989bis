@@ -152,11 +152,6 @@ RFC Editor queue. For avoidance of doubt, the 5-year timer extends back to the
 date 5 years before the date when the call for NomCom volunteers is sent to the
 community.
 
-# Available Data
-
-TODO: This document should contain data about how the proposed criteria would
-have affected eligibility for NomComs in the recent past.
-
 # Security Considerations {#security-considerations}
 
 ## NomCom capture
