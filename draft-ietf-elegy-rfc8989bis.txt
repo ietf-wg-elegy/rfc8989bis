@@ -4,10 +4,10 @@
 
 ELEGY                                                            M. Duke
 Internet-Draft                                                Google LLC
-Obsoletes: 8989 (if approved)                           29 November 2022
+Obsoletes: 8989 (if approved)                            1 December 2022
 Updates: 8713 (if approved)                                             
 Intended status: Best Current Practice                                  
-Expires: 2 June 2023
+Expires: 4 June 2023
 
 
                     Nominating Committee Eligibility
@@ -49,7 +49,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 2 June 2023.
+   This Internet-Draft will expire on 4 June 2023.
 
 Copyright Notice
 
@@ -71,18 +71,17 @@ Table of Contents
    2.  Conventions and Definitions
    3.  NomCom Principles
    4.  Criteria
-   5.  Available Data
-   6.  Security Considerations
-     6.1.  NomCom capture
-       6.1.1.  A Surge of Volunteers
-       6.1.2.  The Two-Per-Organization Limit
-       6.1.3.  One Year of Participation
-     6.2.  Disruptive candidates
-     6.3.  Additional remedies
-   7.  IANA Considerations
-   8.  References
-     8.1.  Normative References
-     8.2.  Informative References
+   5.  Security Considerations
+     5.1.  NomCom capture
+       5.1.1.  A Surge of Volunteers
+       5.1.2.  The Two-Per-Organization Limit
+       5.1.3.  One Year of Participation
+     5.2.  Disruptive candidates
+     5.3.  Additional remedies
+   6.  IANA Considerations
+   7.  References
+     7.1.  Normative References
+     7.2.  Informative References
    Appendix A.  NomCom Capture Calculations
      A.1.  No per-organization limit
      A.2.  Two per Organization
@@ -206,15 +205,9 @@ Table of Contents
    date 5 years before the date when the call for NomCom volunteers is
    sent to the community.
 
-5.  Available Data
+5.  Security Considerations
 
-   TODO: This document should contain data about how the proposed
-   criteria would have affected eligibility for NomComs in the recent
-   past.
-
-6.  Security Considerations
-
-6.1.  NomCom capture
+5.1.  NomCom capture
 
    The most potent threat associated with NomCom eligibility is that an
    organization or group of coordinating organizations would attempt to
@@ -235,7 +228,7 @@ Table of Contents
    either case, while others might now find such an attack to not be
    feasible.
 
-6.1.1.  A Surge of Volunteers
+5.1.1.  A Surge of Volunteers
 
    A large number of "legitimate" volunteers makes it quite difficult to
    control 6 of 10 NomCom slots.  Setting aside limitations on the
@@ -257,7 +250,7 @@ Table of Contents
    of producing eligible volunteers, it also increases the number of
    "legitimate" volunteers that increases the difficulty of an attack.
 
-6.1.2.  The Two-Per-Organization Limit
+5.1.2.  The Two-Per-Organization Limit
 
    The two-per-organization limit in [RFC8713] complicates such an
    attack.  To circumvent it, an organization must either (1) coordinate
@@ -277,7 +270,7 @@ Table of Contents
    volunteers (257 per organization) for a 50% chance of NomCom capture
    (see Appendix A).
 
-6.1.3.  One Year of Participation
+5.1.3.  One Year of Participation
 
    Attendance at 3 meetings requires at least 8 months.  Given the
    volume of volunteers necessary to capture the process, an attack
@@ -289,7 +282,7 @@ Table of Contents
    then have months to adjust policy in response before the NomCom cycle
    begins.
 
-6.2.  Disruptive candidates
+5.2.  Disruptive candidates
 
    Note that the normalization of consistent remote participation allows
    for a single individual to mount an attack that previously required
@@ -311,7 +304,7 @@ Table of Contents
    [RFC8713] exists to allow removal and replacement of disruptive
    figures.
 
-6.3.  Additional remedies
+5.3.  Additional remedies
 
    Additional changes to the process to further obstruct attacks against
    the NomCom are beyond the scope of this document.  However, a
@@ -324,13 +317,13 @@ Table of Contents
    data used to qualify the volunteer, rather than the randomization
    process.
 
-7.  IANA Considerations
+6.  IANA Considerations
 
    This document has no IANA actions.
 
-8.  References
+7.  References
 
-8.1.  Normative References
+7.1.  Normative References
 
    [RFC2119]  Bradner, S., "Key words for use in RFCs to Indicate
               Requirement Levels", BCP 14, RFC 2119,
@@ -348,7 +341,7 @@ Table of Contents
               DOI 10.17487/RFC8713, February 2020,
               <https://www.rfc-editor.org/rfc/rfc8713>.
 
-8.2.  Informative References
+7.2.  Informative References
 
    [I-D.ietf-shmoo-remote-fee]
               Kühlewind, M., Reed, J., and R. Salz, "Open Participation
@@ -364,7 +357,7 @@ Table of Contents
 
 Appendix A.  NomCom Capture Calculations
 
-   Section 6 offers some mathematical results for the probability of
+   Section 5 offers some mathematical results for the probability of
    NomCom capture.  This appendix shows the work.
 
    Let (a ch b) mean the number of combinations of b items chosen from a
