@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2022-11-29T00:31:22.169016+00:00",
+  "timestamp": "2022-12-01T00:34:05.418814+00:00",
   "repo": "ietf-wg-elegy/rfc8989bis",
   "labels": [
     {
@@ -196,15 +196,15 @@
       "id": "I_kwDOH7Dq_M5WV4x5",
       "title": "More Security Considerations",
       "url": "https://github.com/ietf-wg-elegy/rfc8989bis/issues/11",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "martinduke",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "Some things that came up in London:\r\n\r\n- a different threat is a single person trying to get on the Nomcom to be disruptive (can they be expelled?)\r\n- Nomcom confirmation\r\n- fee waivers are a lever\r\n-  maybe add an eligibility challenge step?",
       "createdAt": "2022-11-14T18:58:41Z",
-      "updatedAt": "2022-11-14T18:58:41Z",
-      "closedAt": null,
+      "updatedAt": "2022-11-29T15:03:25Z",
+      "closedAt": "2022-11-29T15:03:25Z",
       "comments": []
     }
   ],
@@ -389,24 +389,26 @@
       "id": "PR_kwDOH7Dq_M5C38Zt",
       "title": "New security considerations from London",
       "url": "https://github.com/ietf-wg-elegy/rfc8989bis/pull/12",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "martinduke",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "Fixes #11 ",
       "createdAt": "2022-11-14T20:51:29Z",
-      "updatedAt": "2022-11-29T00:08:15Z",
+      "updatedAt": "2022-11-29T15:03:24Z",
       "baseRepository": "ietf-wg-elegy/rfc8989bis",
       "baseRefName": "main",
       "baseRefOid": "33fdd7bc19eb3a5957bb466d6a3d005711797eef",
       "headRepository": "ietf-wg-elegy/rfc8989bis",
       "headRefName": "security",
       "headRefOid": "b57892fd2bbb61a8b9c046d113300886087a7b74",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "closedAt": "2022-11-29T15:03:24Z",
+      "mergedAt": "2022-11-29T15:03:23Z",
+      "mergedBy": "martinduke",
+      "mergeCommit": {
+        "oid": "c9f475dbca72d22532baa72bb89e88842f7194a0"
+      },
       "comments": [],
       "reviews": [
         {
@@ -543,6 +545,19 @@
               "updatedAt": "2022-11-23T08:16:48Z"
             }
           ]
+        },
+        {
+          "id": "PRR_kwDOH7Dq_M5HWRDx",
+          "commit": {
+            "abbreviatedOid": "b57892f"
+          },
+          "author": "larseggert",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2022-11-29T07:39:06Z",
+          "updatedAt": "2022-11-29T07:39:06Z",
+          "comments": []
         }
       ]
     }
