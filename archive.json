@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2022-12-01T00:34:05.418814+00:00",
+  "timestamp": "2022-12-04T00:27:35.546658+00:00",
   "repo": "ietf-wg-elegy/rfc8989bis",
   "labels": [
     {
@@ -100,15 +100,15 @@
       "id": "I_kwDOH7Dq_M5SuHvJ",
       "title": "Available Data",
       "url": "https://github.com/ietf-wg-elegy/rfc8989bis/issues/5",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "martinduke",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "The \"Available Data\" section is empty",
       "createdAt": "2022-09-27T14:00:40Z",
-      "updatedAt": "2022-09-27T14:02:14Z",
-      "closedAt": null,
+      "updatedAt": "2022-12-01T18:34:03Z",
+      "closedAt": "2022-12-01T18:34:03Z",
       "comments": [
         {
           "author": "martinduke",
@@ -116,6 +116,13 @@
           "body": "If there are any suggestions for what to include, (or better yet actual data to contribute), this is the place.",
           "createdAt": "2022-09-27T14:02:14Z",
           "updatedAt": "2022-09-27T14:02:14Z"
+        },
+        {
+          "author": "martinduke",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Consensus on the list was to just not have the section.",
+          "createdAt": "2022-12-01T18:32:26Z",
+          "updatedAt": "2022-12-01T18:32:26Z"
         }
       ]
     },
@@ -155,7 +162,7 @@
       "labels": [],
       "body": "While it is true that just picking up your badge counted as \"attendance\" in the past, in reality the vast majority of \"attendees\" at IETF meetings attended numerous sessions over several days if not the entire week. Since session attendance was recorded manually on the Blue Sheets, it would have been quite burdensome to actually check the number of sessions someone had attended, or the like.\r\n\r\nNow, with hybrid meetings, per session attendance data is all available online. This makes it practical to require larger amount of participation at IETF meetings as part of the criteria for nomcom eligibility. The current criteria in the draft, of checking in to attend one session, is way too lax. A person who habitually attends only one session per IETF meeting or who only attends session of one WG is a very narrow participant in the IETF and should not be eligible for nomcom.\r\n\r\nFor an example of attendance criteria for a week long meeting that has been used by another standards organization, see Section 7.1 of https://mentor.ieee.org/802.11/dcn/14/11-14-0629-21-0000-802-11-operations-manual.docx which defines attendance as attending for 75% of the session hours during a week. (In 802.11, attendance is used to earn voting rights.) I do not think we need to be that stringent. But I would say that someone who does not attend at least two sessions a day for three days of an IETF meeting week really cannot be reasonably described as having attended that IETF meeting.",
       "createdAt": "2022-11-05T18:30:00Z",
-      "updatedAt": "2022-11-07T22:19:13Z",
+      "updatedAt": "2022-12-01T18:34:54Z",
       "closedAt": null,
       "comments": [
         {
@@ -164,6 +171,13 @@
           "body": "Yeah - no.   A good portion of the participation that's most useful for a Nomcom participant are the various ad-hoc hallway and bar sessions.   Now I'm not necessarily opposed to including my bar tab and a list of interactees when I volunteer for the Nomcom, but I think that might be difficult to verify and tabulate by a third party.    \r\n\r\nWRT to the comparison to an IEEE meeting - I'm not very familiar with the scope of the meeting to which the 75% applies, but from discussions with folk who have attended IEEE as part of their funded lifestyles, that IEEE meeting you're referring to tends to be more closely matched in scope to an IETF working group or small cluster of working groups than to the IETF week-long whole ball of wax.  \r\n\r\nI would oppose this change in criteria.  Mike\r\n",
           "createdAt": "2022-11-07T22:19:13Z",
           "updatedAt": "2022-11-07T22:19:13Z"
+        },
+        {
+          "author": "martinduke",
+          "authorAssociation": "COLLABORATOR",
+          "body": "The solution was to add some text to security consderations (see #12).\r\n\r\nLeaving this open for now, but will close later if there are no further concerns.",
+          "createdAt": "2022-12-01T18:34:53Z",
+          "updatedAt": "2022-12-01T18:34:53Z"
         }
       ]
     },
@@ -560,6 +574,34 @@
           "comments": []
         }
       ]
+    },
+    {
+      "number": 13,
+      "id": "PR_kwDOH7Dq_M5EFXAX",
+      "title": "Remove data section",
+      "url": "https://github.com/ietf-wg-elegy/rfc8989bis/pull/13",
+      "state": "MERGED",
+      "author": "martinduke",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "\r\nFix #5 ",
+      "createdAt": "2022-12-01T18:33:18Z",
+      "updatedAt": "2022-12-01T18:34:02Z",
+      "baseRepository": "ietf-wg-elegy/rfc8989bis",
+      "baseRefName": "main",
+      "baseRefOid": "c9f475dbca72d22532baa72bb89e88842f7194a0",
+      "headRepository": "ietf-wg-elegy/rfc8989bis",
+      "headRefName": "no-data",
+      "headRefOid": "a4c663116698830d94ceecf46b0dab0d9518cf4d",
+      "closedAt": "2022-12-01T18:34:02Z",
+      "mergedAt": "2022-12-01T18:34:02Z",
+      "mergedBy": "martinduke",
+      "mergeCommit": {
+        "oid": "146d87a24830a88acad49b467500f4636efbf291"
+      },
+      "comments": [],
+      "reviews": []
     }
   ]
 }
