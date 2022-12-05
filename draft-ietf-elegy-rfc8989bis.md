@@ -29,8 +29,8 @@ informative:
 
 --- abstract
 
-The IETF Nominating Committee (NomCom) appoints candidates to most IETF
-leadership committee. RFC8713 provides criteria for membership on NomCom that
+The IETF Nominating Committee (NomCom) appoints candidates to several IETF
+leadership committees. RFC8713 provides criteria for membership on NomCom that
 attempt to ensure that NomCom volunteers are members of the loosely defined
 IETF community, by requiring in-person attendance in three of the past five in-
 person meetings. In 2020 and 2021, the IETF had six consecutive fully online
@@ -53,8 +53,8 @@ confirmation by other bodies.
 NomCom voting members are volunteers that have met certain eligibility
 requirements. The actual NomCom is selected at random from the pool of eligible
 volunteers. Thus, it is important that members of the pool be IETF participants
-likely to have knowledge of IETF processes and Tao. There are restrictions to
-ensure that no more than two volunteers with the same primary affiliation are
+likely to have knowledge of IETF processes and practices. There are restrictions
+to ensure that no more than two volunteers with the same primary affiliation are
 chosen.
 
 {{Section 4.14 of RFC8713}} requires that volunteers must have attended three of
@@ -103,17 +103,17 @@ mechanism to ensure any interactions. Finally, the NomCom interview process was
 largely conducted in-person at IETF meetings, so the ability to attend was a
 prerequisite to participate.
 
-Beyond the principle that the community should govern itself, selecting
-volunteers with a demonstrated commitment to the organization, while limiting
-the number from any organization, avoids the potential for mischief via
-nominations that disrupt IETF operations or work against the interests of the
-community as a whole.
+A basic principle is that the community should govern itself, so volunteers
+must have a demonstrated commitment to the IETF. Limiting the number of
+volunteers sponsored by any one organization avoids the potential for mischief
+that disrupts IETF operations or works against the interests of the community as
+a whole.
 
 However, attitudes to business travel evolve, and remote meeting technology
 continues to improve, to the extent that many longstanding community members
 choose to participate remotely. The system has always excluded some from
 attendance, and thus qualification from the NomCom, due to cost or personal
-reasons. Further, the NomCom can now fully complete its business using online
+reasons. Further, the NomCom has completed two cycles using entirely online
 tools.
 
 Counting remote attendance lowers the barriers to entry. As IETF is committed to
@@ -178,10 +178,10 @@ feasible.
 A large number of "legitimate" volunteers makes it quite difficult to control 6
 of 10 NomCom slots. Setting aside limitations on the number of selections from
 any organization, basic probability shows that to have even a 50% chance of
-controlling 6 or more NomCom positions, an attacker needs somewhat roughly 60%
-of the volunteer pool. For example, if there are 300 "legitimate" volunteers,
-an attacker must produce 365 volunteers to exceed a 50% chance of NomCom
-capture (see {{capture-math}}).
+controlling 6 or more NomCom positions, an attacker needs roughly 60% of the
+volunteer pool. For example, if there are 300 "legitimate" volunteers, an
+attacker must produce 365 volunteers to exceed a 50% chance of NomCom capture
+(see {{capture-math}}).
 
 A sudden surge in the number of volunteers, particularly of people that no one
 recognizes as a part of the community, is an early-warning sign for the
