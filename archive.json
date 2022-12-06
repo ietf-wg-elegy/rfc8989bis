@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2022-12-04T00:27:35.546658+00:00",
+  "timestamp": "2022-12-06T00:26:12.724732+00:00",
   "repo": "ietf-wg-elegy/rfc8989bis",
   "labels": [
     {
@@ -155,15 +155,15 @@
       "id": "I_kwDOH7Dq_M5VqRnB",
       "title": "Attendance Criteria is Way Too Lax",
       "url": "https://github.com/ietf-wg-elegy/rfc8989bis/issues/9",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "d3e3e3",
       "authorAssociation": "NONE",
       "assignees": [],
       "labels": [],
       "body": "While it is true that just picking up your badge counted as \"attendance\" in the past, in reality the vast majority of \"attendees\" at IETF meetings attended numerous sessions over several days if not the entire week. Since session attendance was recorded manually on the Blue Sheets, it would have been quite burdensome to actually check the number of sessions someone had attended, or the like.\r\n\r\nNow, with hybrid meetings, per session attendance data is all available online. This makes it practical to require larger amount of participation at IETF meetings as part of the criteria for nomcom eligibility. The current criteria in the draft, of checking in to attend one session, is way too lax. A person who habitually attends only one session per IETF meeting or who only attends session of one WG is a very narrow participant in the IETF and should not be eligible for nomcom.\r\n\r\nFor an example of attendance criteria for a week long meeting that has been used by another standards organization, see Section 7.1 of https://mentor.ieee.org/802.11/dcn/14/11-14-0629-21-0000-802-11-operations-manual.docx which defines attendance as attending for 75% of the session hours during a week. (In 802.11, attendance is used to earn voting rights.) I do not think we need to be that stringent. But I would say that someone who does not attend at least two sessions a day for three days of an IETF meeting week really cannot be reasonably described as having attended that IETF meeting.",
       "createdAt": "2022-11-05T18:30:00Z",
-      "updatedAt": "2022-12-01T18:34:54Z",
-      "closedAt": null,
+      "updatedAt": "2022-12-05T18:18:49Z",
+      "closedAt": "2022-12-05T18:18:49Z",
       "comments": [
         {
           "author": "mstjohns",
@@ -178,6 +178,13 @@
           "body": "The solution was to add some text to security consderations (see #12).\r\n\r\nLeaving this open for now, but will close later if there are no further concerns.",
           "createdAt": "2022-12-01T18:34:53Z",
           "updatedAt": "2022-12-01T18:34:53Z"
+        },
+        {
+          "author": "martinduke",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Closing due to a lack of additional comments.",
+          "createdAt": "2022-12-05T18:18:49Z",
+          "updatedAt": "2022-12-05T18:18:49Z"
         }
       ]
     },
@@ -600,6 +607,32 @@
       "mergeCommit": {
         "oid": "146d87a24830a88acad49b467500f4636efbf291"
       },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 14,
+      "id": "PR_kwDOH7Dq_M5EYCyH",
+      "title": "Farrell and Carpenter comments",
+      "url": "https://github.com/ietf-wg-elegy/rfc8989bis/pull/14",
+      "state": "OPEN",
+      "author": "martinduke",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Editorial comments from email.",
+      "createdAt": "2022-12-05T18:30:00Z",
+      "updatedAt": "2022-12-05T18:30:00Z",
+      "baseRepository": "ietf-wg-elegy/rfc8989bis",
+      "baseRefName": "main",
+      "baseRefOid": "146d87a24830a88acad49b467500f4636efbf291",
+      "headRepository": "ietf-wg-elegy/rfc8989bis",
+      "headRefName": "farrell-carpenter",
+      "headRefOid": "ff6b9c20181aa28fd8b1f2cf6ead6750bfbdb5cf",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
       "comments": [],
       "reviews": []
     }
