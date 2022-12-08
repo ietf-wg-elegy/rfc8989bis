@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2022-12-06T00:26:12.724732+00:00",
+  "timestamp": "2022-12-08T00:26:20.767917+00:00",
   "repo": "ietf-wg-elegy/rfc8989bis",
   "labels": [
     {
@@ -622,7 +622,7 @@
       "labels": [],
       "body": "Editorial comments from email.",
       "createdAt": "2022-12-05T18:30:00Z",
-      "updatedAt": "2022-12-05T18:30:00Z",
+      "updatedAt": "2022-12-07T17:50:29Z",
       "baseRepository": "ietf-wg-elegy/rfc8989bis",
       "baseRefName": "main",
       "baseRefOid": "146d87a24830a88acad49b467500f4636efbf291",
@@ -634,7 +634,21 @@
       "mergedBy": null,
       "mergeCommit": null,
       "comments": [],
-      "reviews": []
+      "reviews": [
+        {
+          "id": "PRR_kwDOH7Dq_M5IDesD",
+          "commit": {
+            "abbreviatedOid": "ff6b9c2"
+          },
+          "author": "mcr",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2022-12-07T17:50:29Z",
+          "updatedAt": "2022-12-07T17:50:29Z",
+          "comments": []
+        }
+      ]
     }
   ]
 }
