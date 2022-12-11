@@ -4,10 +4,10 @@
 
 ELEGY                                                            M. Duke
 Internet-Draft                                                Google LLC
-Obsoletes: 8989 (if approved)                            1 December 2022
+Obsoletes: 8989 (if approved)                           11 December 2022
 Updates: 8713 (if approved)                                             
 Intended status: Best Current Practice                                  
-Expires: 4 June 2023
+Expires: 14 June 2023
 
 
                     Nominating Committee Eligibility
@@ -15,8 +15,8 @@ Expires: 4 June 2023
 
 Abstract
 
-   The IETF Nominating Committee (NomCom) appoints candidates to most
-   IETF leadership committee.  RFC8713 provides criteria for membership
+   The IETF Nominating Committee (NomCom) appoints candidates to several
+   IETF leadership committees.  RFC8713 provides criteria for membership
    on NomCom that attempt to ensure that NomCom volunteers are members
    of the loosely defined IETF community, by requiring in-person
    attendance in three of the past five in- person meetings.  In 2020
@@ -49,7 +49,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 4 June 2023.
+   This Internet-Draft will expire on 14 June 2023.
 
 Copyright Notice
 
@@ -103,8 +103,9 @@ Table of Contents
    eligibility requirements.  The actual NomCom is selected at random
    from the pool of eligible volunteers.  Thus, it is important that
    members of the pool be IETF participants likely to have knowledge of
-   IETF processes and Tao. There are restrictions to ensure that no more
-   than two volunteers with the same primary affiliation are chosen.
+   IETF processes and practices.  There are restrictions to ensure that
+   no more than two volunteers with the same primary affiliation are
+   chosen.
 
    Section 4.14 of [RFC8713] requires that volunteers must have attended
    three of the previous five meetings.  In practice, this has meant
@@ -154,18 +155,18 @@ Table of Contents
    interview process was largely conducted in-person at IETF meetings,
    so the ability to attend was a prerequisite to participate.
 
-   Beyond the principle that the community should govern itself,
-   selecting volunteers with a demonstrated commitment to the
-   organization, while limiting the number from any organization, avoids
-   the potential for mischief via nominations that disrupt IETF
-   operations or work against the interests of the community as a whole.
+   A basic principle is that the community should govern itself, so
+   volunteers must have a demonstrated commitment to the IETF.  Limiting
+   the number of volunteers sponsored by any one organization avoids the
+   potential for mischief that disrupts IETF operations or works against
+   the interests of the community as a whole.
 
    However, attitudes to business travel evolve, and remote meeting
    technology continues to improve, to the extent that many longstanding
    community members choose to participate remotely.  The system has
    always excluded some from attendance, and thus qualification from the
-   NomCom, due to cost or personal reasons.  Further, the NomCom can now
-   fully complete its business using online tools.
+   NomCom, due to cost or personal reasons.  Further, the NomCom has
+   completed two cycles using entirely online tools.
 
    Counting remote attendance lowers the barriers to entry.  As IETF is
    committed to having a no-fee remote option
@@ -234,10 +235,10 @@ Table of Contents
    control 6 of 10 NomCom slots.  Setting aside limitations on the
    number of selections from any organization, basic probability shows
    that to have even a 50% chance of controlling 6 or more NomCom
-   positions, an attacker needs somewhat roughly 60% of the volunteer
-   pool.  For example, if there are 300 "legitimate" volunteers, an
-   attacker must produce 365 volunteers to exceed a 50% chance of NomCom
-   capture (see Appendix A).
+   positions, an attacker needs roughly 60% of the volunteer pool.  For
+   example, if there are 300 "legitimate" volunteers, an attacker must
+   produce 365 volunteers to exceed a 50% chance of NomCom capture (see
+   Appendix A).
 
    A sudden surge in the number of volunteers, particularly of people
    that no one recognizes as a part of the community, is an early-
@@ -346,9 +347,9 @@ Table of Contents
    [I-D.ietf-shmoo-remote-fee]
               Kühlewind, M., Reed, J., and R. Salz, "Open Participation
               Principle regarding Remote Registration Fee", Work in
-              Progress, Internet-Draft, draft-ietf-shmoo-remote-fee-03,
-              3 June 2022, <https://datatracker.ietf.org/doc/html/draft-
-              ietf-shmoo-remote-fee-03>.
+              Progress, Internet-Draft, draft-ietf-shmoo-remote-fee-04,
+              7 December 2022, <https://datatracker.ietf.org/doc/html/
+              draft-ietf-shmoo-remote-fee-04>.
 
    [RFC8989]  Carpenter, B. and S. Farrell, "Additional Criteria for
               Nominating Committee Eligibility", RFC 8989,
