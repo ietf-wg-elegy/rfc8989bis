@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2022-12-08T00:26:20.767917+00:00",
+  "timestamp": "2022-12-13T00:31:48.283179+00:00",
   "repo": "ietf-wg-elegy/rfc8989bis",
   "labels": [
     {
@@ -615,24 +615,26 @@
       "id": "PR_kwDOH7Dq_M5EYCyH",
       "title": "Farrell and Carpenter comments",
       "url": "https://github.com/ietf-wg-elegy/rfc8989bis/pull/14",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "martinduke",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "Editorial comments from email.",
       "createdAt": "2022-12-05T18:30:00Z",
-      "updatedAt": "2022-12-07T17:50:29Z",
+      "updatedAt": "2022-12-11T23:32:44Z",
       "baseRepository": "ietf-wg-elegy/rfc8989bis",
       "baseRefName": "main",
       "baseRefOid": "146d87a24830a88acad49b467500f4636efbf291",
       "headRepository": "ietf-wg-elegy/rfc8989bis",
       "headRefName": "farrell-carpenter",
       "headRefOid": "ff6b9c20181aa28fd8b1f2cf6ead6750bfbdb5cf",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "closedAt": "2022-12-11T23:32:43Z",
+      "mergedAt": "2022-12-11T23:32:43Z",
+      "mergedBy": "martinduke",
+      "mergeCommit": {
+        "oid": "db8baccfe2dde4209aeff86c33b704c98bcc8886"
+      },
       "comments": [],
       "reviews": [
         {
