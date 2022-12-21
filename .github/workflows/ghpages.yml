@@ -14,6 +14,9 @@ on:
     - LICENSE.md
     - .gitignore
 
+env:
+  LANG: "en_US.UTF-8"
+
 jobs:
   build:
     name: "Update Editor's Copy"
@@ -22,37 +25,41 @@ jobs:
     - name: "Checkout"
       uses: actions/checkout@v3
 
-    - name: "Setup"
-      id: setup
-      run: date -u "+::set-output name=date::%FT%T"
-
-    - name: "Caching"
+    - name: "Cache Setup"
+      id: cache-setup
+      run: |
+        mkdir -p "$HOME"/.cache/xml2rfc
+        echo "::set-output name=path::$HOME/.cache/xml2rfc"
+        date -u "+::set-output name=date::%FT%T"
+    - name: "Cache References"
       uses: actions/cache@v3
       with:
-        path: |
-          .refcache
-          .venv
-          .gems
-          node_modules
-          .targets.mk
-        key: i-d-${{ steps.setup.outputs.date }}
-        restore-keys: i-d-
-
+        path: ${{ steps.cache-setup.outputs.path }}
+        key: refcache-${{ steps.cache-setup.outputs.date }}
+        restore-keys: |
+          refcache-${{ steps.cache-setup.outputs.date }}
+          refcache-
     - name: "Build Drafts"
-      uses: martinthomson/i-d-template@v1
-      with:
-        token: ${{ github.token }}
+      uses: martinthomson/i-d-template@v1m
 
     - name: "Update GitHub Pages"
-      uses: martinthomson/i-d-template@v1
+      uses: martinthomson/i-d-template@v1m
       if: ${{ github.event_name == 'push' }}
       with:
         make: gh-pages
-        token: ${{ github.token }}
+        token: ${{ secrets.GITHUB_TOKEN }}
 
-    - name: "Archive Built Drafts"
-      uses: actions/upload-artifact@v2
+    - name: "Save HTML"
+      uses: actions/upload-artifact@v3
       with:
-        path: |
-          draft-*.html
-          draft-*.txt
+        path: "*.html"
+
+    - name: "Save Text"
+      uses: actions/upload-artifact@v3
+      with:
+        path: "*.txt"
+
+    - name: "Save XML"
+      uses: actions/upload-artifact@v3
+      with:
+        path: "*.xml"
