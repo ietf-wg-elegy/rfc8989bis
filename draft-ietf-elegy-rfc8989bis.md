@@ -261,10 +261,13 @@ This document has no IANA actions.
 {{security-considerations}} offers some mathematical results for the probability
 of NomCom capture. This appendix shows the work.
 
-Let (a ch b) mean the number of combinations of b items chosen from a population
-of a items, or
+Note that the number of combinations of b items chosen from a population of a
+items, or
 
-(a ch b) = fact(a) / (fact(a-b) * fact(b))
+~~~math
+\binom{a}{b} = {\frac{a!}{(a-b)!b!}}
+~~~ 
+{: #peq1 artwork-align="center" }
 
 ## No per-organization limit
 
@@ -273,14 +276,23 @@ or equivalently, no organization produces more than two volunteers.
 
 Let L be the number of "legitimate" volunteers (i.e. those not allied with an
 attacker" and A be the number of attacking volunteers. Then there are
-((L+A) ch 10) ways to select a NomCom. The number of outcomes where attackers
-capture the NomCom is
+~~~math
+\binom{L+A}{10}
+~~~
+ways to select a NomCom. The number of outcomes where attackers capture the
+NomCom is
 
-Sum(i=6..10)[(A ch i) * (L ch (10-i))]
+~~~math
+sum_{i=6}^{10}(\binom{A}{i} \binom{L}{10-i})
+~~~
+{: #peq2 artwork-align="center" }
 
 and the probability of capture is therefore
 
-Sum(i=6..10)[(A ch i) * (L ch (10-i))] / ((L+A) ch 10).
+~~~math
+sum_{i=6}^{10}{\frac{\binom{A}{i} \binom{L}{10-i}}{\binom{L + A}{10}}}
+~~~
+{: #peq3 artwork-align="center" }
 
 For L = 300, this probability crosses 50% at A = 365.
 
@@ -294,12 +306,18 @@ Let B be the number of nominees per attacking organization, so that A = 3B.
 
 The number of combinations to pick exactly N attackers, N <= 6, is
 
-C(N) = (L ch (10-N)) *
-    Sum(i=0:min(N,2))[(B ch i)*Sum(j=0..min(2, N-i))[(B ch j)*(B ch min(2, N-i-j))]]
+~~~math
+C(N) = \binom{L}{10 - N} sum_{i=0}^{min(N,2)}(\binom{B}{i} sum_{j=0}^{min(2,
+N-i)}(\binom{B}{j} \binom{B}{min(2, N-i-j)})
+~~~
+{: #peq4 artwork-align="center" }
 
 And the probability of capture is
 
-C(6) / Sum(i=0..6)[C(i)]
+~~~math
+{\frac{C(6)}{sum_{i=0}^{6}C(i)}}
+~~~
+{: #peq5 artwork-align="center" }
 
 For L = 300, the A required to exceed a 50% probability of capture is 771.
 
