@@ -262,7 +262,7 @@ This document has no IANA actions.
 of NomCom capture. This appendix shows the work.
 
 Note that the number of combinations of b items chosen from a population of a
-items, or
+item is often expressed as
 
 ~~~math
 \binom{a}{b} = {\frac{a!}{(a-b)!b!}}
@@ -276,21 +276,23 @@ or equivalently, no organization produces more than two volunteers.
 
 Let L be the number of "legitimate" volunteers (i.e. those not allied with an
 attacker" and A be the number of attacking volunteers. Then there are
+
 ~~~math
 \binom{L+A}{10}
 ~~~
+
 ways to select a NomCom. The number of outcomes where attackers capture the
 NomCom is
 
 ~~~math
-sum_{i=6}^{10}(\binom{A}{i} \binom{L}{10-i})
+\sum_{i=6}^{10}\left(\binom{A}{i} \binom{L}{10-i}\right)
 ~~~
 {: #peq2 artwork-align="center" }
 
 and the probability of capture is therefore
 
 ~~~math
-sum_{i=6}^{10}{\frac{\binom{A}{i} \binom{L}{10-i}}{\binom{L + A}{10}}}
+\sum_{i=6}^{10}{\frac{\binom{A}{i} \binom{L}{10-i}}{\binom{L + A}{10}}}
 ~~~
 {: #peq3 artwork-align="center" }
 
@@ -307,15 +309,15 @@ Let B be the number of nominees per attacking organization, so that A = 3B.
 The number of combinations to pick exactly N attackers, N <= 6, is
 
 ~~~math
-C(N) = \binom{L}{10 - N} sum_{i=0}^{min(N,2)}(\binom{B}{i} sum_{j=0}^{min(2,
-N-i)}(\binom{B}{j} \binom{B}{min(2, N-i-j)})
+C(N) = \binom{L}{10 - N} \sum_{i=0}^{min(N,2)}\left(\binom{B}{i} sum_{j=0}^{min(2,
+N-i)}\left(\binom{B}{j} \binom{B}{min(2, N-i-j)}\right)\right)
 ~~~
 {: #peq4 artwork-align="center" }
 
 And the probability of capture is
 
 ~~~math
-{\frac{C(6)}{sum_{i=0}^{6}C(i)}}
+{\frac{C(6)}{\sum_{i=0}^{6}C(i)}}
 ~~~
 {: #peq5 artwork-align="center" }
 
