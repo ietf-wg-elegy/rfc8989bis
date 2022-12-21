@@ -362,7 +362,7 @@ Appendix A.  NomCom Capture Calculations
    NomCom capture.  This appendix shows the work.
 
    Note that the number of combinations of b items chosen from a
-   population of a items, or
+   population of a item is often expressed as
 
                                           a !
                       binom{a}{b} = {--------------}
@@ -378,20 +378,24 @@ A.1.  No per-organization limit
 
    Let L be the number of "legitimate" volunteers (i.e. those not allied
    with an attacker" and A be the number of attacking volunteers.  Then
-   there are ~~~math \binom{L+A}{10} ~~~ ways to select a NomCom.  The
-   number of outcomes where attackers capture the NomCom is
+   there are
 
-                      10
-                   sum     (binom{A}{i}binom{L}{10 - i})
-                      i = 6
+   binom{L + A}{10}
+
+   ways to select a NomCom.  The number of outcomes where attackers
+   capture the NomCom is
+
+                   __ 10
+                  \        (binom{A}{i}binom{L}{10 - i})
+                  /__ i = 6
 
                                   Figure 2
 
    and the probability of capture is therefore
 
-                      10    binom{A}{i}binom{L}{10 - i}
-                   sum     {---------------------------}
-                      i = 6      binom{L + A}{10}
+                   __ 10    binom{A}{i}binom{L}{10 - i}
+                  \        {---------------------------}
+                  /__ i = 6      binom{L + A}{10}
 
                                   Figure 3
 
@@ -409,21 +413,21 @@ A.2.  Two per Organization
 
    The number of combinations to pick exactly N attackers, N <= 6, is
 
-                                             C(N) =
+                                              C(N) =
 
-                   min(N, 2)               min(2, N - i)
-binom{L}{10 - N}sum         (binom{B}{i}sum             (binom{B}{j}binom{B}{min(2, N - i - j)})
-                   i = 0                   j = 0
+                 __ min(N, 2)/              min(2, N - i)                                        \
+binom{L}{10 - N}\            |binom{B}{i}sum             (binom{B}{j}binom{B}{min(2, N - i - j)})|
+                /__ i = 0    \              j = 0                                                /
 
                                Figure 4
 
    And the probability of capture is
 
                                    C(6)
-                              {------------}
-                                  6
-                               sum     C(i)
-                                  i = 0
+                              {-------------}
+                                __ 6
+                               \        C(i)
+                               /__ i = 0
 
                                   Figure 5
 
