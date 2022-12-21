@@ -266,7 +266,7 @@ items, or
 
 ~~~math
 \binom{a}{b} = {\frac{a!}{(a-b)!b!}}
-~~~ 
+~~~
 {: #peq1 artwork-align="center" }
 
 ## No per-organization limit
