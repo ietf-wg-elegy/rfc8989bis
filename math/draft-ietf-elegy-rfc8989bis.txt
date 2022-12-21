@@ -386,7 +386,7 @@ A.1.  No per-organization limit
    capture the NomCom is
 
                    __ 10
-                  \        (binom{A}{i}binom{L}{10 - i})
+                  \        [binom{A}{i}binom{L}{10 - i}]
                   /__ i = 6
 
                                   Figure 2
@@ -413,11 +413,12 @@ A.2.  Two per Organization
 
    The number of combinations to pick exactly N attackers, N <= 6, is
 
-                                              C(N) =
+                                               C(N) =
 
-                 __ min(N, 2)/              min(2, N - i)                                        \
-binom{L}{10 - N}\            |binom{B}{i}sum             (binom{B}{j}binom{B}{min(2, N - i - j)})|
-                /__ i = 0    \              j = 0                                                /
+                              _                                                                    _
+                 __ min(N, 2)|             __ min(2, N - i)                                         |
+binom{L}{10 - N}\            | binom{B}{i}\                (binom{B}{j}binom{B}{min(2, N - i - j)}) |
+                /__ i = 0    |_           /__ j = 0                                                _|
 
                                Figure 4
 
