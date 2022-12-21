@@ -4,10 +4,10 @@
 
 ELEGY                                                            M. Duke
 Internet-Draft                                                Google LLC
-Obsoletes: 8989 (if approved)                           11 December 2022
+Obsoletes: 8989 (if approved)                           21 December 2022
 Updates: 8713 (if approved)                                             
 Intended status: Best Current Practice                                  
-Expires: 14 June 2023
+Expires: 24 June 2023
 
 
                     Nominating Committee Eligibility
@@ -49,7 +49,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 14 June 2023.
+   This Internet-Draft will expire on 24 June 2023.
 
 Copyright Notice
 
@@ -361,10 +361,14 @@ Appendix A.  NomCom Capture Calculations
    Section 5 offers some mathematical results for the probability of
    NomCom capture.  This appendix shows the work.
 
-   Let (a ch b) mean the number of combinations of b items chosen from a
-   population of a items, or
+   Note that the number of combinations of b items chosen from a
+   population of a item is often expressed as
 
-   (a ch b) = fact(a) / (fact(a-b) * fact(b))
+                                          a !
+                      binom{a}{b} = {--------------}
+                                     (a - b) ! b !
+
+                                  Figure 1
 
 A.1.  No per-organization limit
 
@@ -374,14 +378,26 @@ A.1.  No per-organization limit
 
    Let L be the number of "legitimate" volunteers (i.e. those not allied
    with an attacker" and A be the number of attacking volunteers.  Then
-   there are ((L+A) ch 10) ways to select a NomCom.  The number of
-   outcomes where attackers capture the NomCom is
+   there are
 
-   Sum(i=6..10)[(A ch i) * (L ch (10-i))]
+   binom{L + A}{10}
+
+   ways to select a NomCom.  The number of outcomes where attackers
+   capture the NomCom is
+
+                   __ 10
+                  \        [binom{A}{i}binom{L}{10 - i}]
+                  /__ i = 6
+
+                                  Figure 2
 
    and the probability of capture is therefore
 
-   Sum(i=6..10)[(A ch i) * (L ch (10-i))] / ((L+A) ch 10).
+                   __ 10    binom{A}{i}binom{L}{10 - i}
+                  \        {---------------------------}
+                  /__ i = 6      binom{L + A}{10}
+
+                                  Figure 3
 
    For L = 300, this probability crosses 50% at A = 365.
 
@@ -397,12 +413,24 @@ A.2.  Two per Organization
 
    The number of combinations to pick exactly N attackers, N <= 6, is
 
-   C(N) = (L ch (10-N)) * Sum(i=0:min(N,2))[(B ch i)_Sum(j=0..min(2,
-   N-i))[(B ch j)_(B ch min(2, N-i-j))]]
+                                               C(N) =
+
+                              _                                                                    _
+                 __ min(N, 2)|             __ min(2, N - i)                                         |
+binom{L}{10 - N}\            | binom{B}{i}\                (binom{B}{j}binom{B}{min(2, N - i - j)}) |
+                /__ i = 0    |_           /__ j = 0                                                _|
+
+                               Figure 4
 
    And the probability of capture is
 
-   C(6) / Sum(i=0..6)[C(i)]
+                                   C(6)
+                              {-------------}
+                                __ 6
+                               \        C(i)
+                               /__ i = 0
+
+                                  Figure 5
 
    For L = 300, the A required to exceed a 50% probability of capture is
    771.
