@@ -39,11 +39,11 @@ jobs:
         token: ${{ github.token }}
 
     - name: "Upload to Datatracker"
-      uses: martinthomson/i-d-template@v1
+      uses: martinthomson/i-d-template@v1m
       with:
         make: upload
 
     - name: "Archive Submitted Drafts"
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         path: "draft-*-[0-9][0-9].xml"
