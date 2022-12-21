@@ -30,21 +30,21 @@ informative:
 --- abstract
 
 The IETF Nominating Committee (NomCom) appoints candidates to several IETF
-leadership committees. RFC8713 provides criteria for membership on NomCom that
+leadership committees. RFC8713 provides criteria for NomCom membership that
 attempt to ensure that NomCom volunteers are members of the loosely defined
 IETF community, by requiring in-person attendance in three of the past five in-
 person meetings. In 2020 and 2021, the IETF had six consecutive fully online
 plenary meetings that drove rapid advancement in remote meeting technologies and
 procedures, including an experiment that included remote attendance for NomCom
-eligibility. This document updates RFC8713 by building a new set of eligibility
-criteria from first principles, with consideration for the increased salience of
+eligibility. This document updates RFC8713 by defining a new set of eligibility
+criteria from first principles, with consideration to the increased salience of
 remote attendance.
 
 --- middle
 
 # Introduction
 
-{{!RFC8713}} defines the process for selection of the Internet Architecture
+{{!RFC8713}} defines the process for the selection of the Internet Architecture
 Board (IAB), Internet Engineering Steering Group (IESG), IETF Trust, and one
 IETF LLC Director. A key actor in the process is the Nominating Committee
 (NomCom), which nominates a single candidate for each open position, subject to
@@ -59,29 +59,29 @@ chosen.
 
 {{Section 4.14 of RFC8713}} requires that volunteers must have attended three of
 the previous five meetings. In practice, this has meant that the volunteer
-picked up their registration badge. Current members of the Internet Society
-Board of Trustees and bodies for which the NomCom nominates members are
-ineligible.
+picked up their registration badge at an in-person meeting. Current members of
+the Internet Society Board of Trustees and bodies for which the NomCom nominates
+members are ineligible.
 
 {{?RFC8989}} specified an experiment in the wake of six consecutive fully online
-meetings from 2020 to 2021, where the traditional interpretation of the
-requirement would have resulted in no eligible volunteers. It extended the
-attendance requirement to define meeting attendance as including logging in to
-at least one session of a fully-online IETF meeting.
+meetings from 2020 to 2021, where the historic interpretation of the requirement
+would have resulted in no eligible volunteers. It extended the attendance
+requirement to define meeting attendance as including logging in to at least one
+session of a fully-online IETF meeting.
 
 RFC8989 also created two other tracks to obtain eligibility: (1) serving as a
-working group chair or secretary in the past 3 years, and (2) author or editor
-of an IETF Stream RFC in the past five years, including internet-drafts in the
-RFC Editor queue.
+working group chair or secretary in the past three years, and (2) author or
+editor of an IETF Stream RFC in the past five years, including internet-drafts
+in the RFC Editor queue.
 
 This document discusses some of the first principles that inform the design of
 NomCom eligibility, and makes recommendations on how the process of
 qualification based on attendance should work.
 
-This document replaces the attendance criteria in {{Section 4.14 of RFC8713}}
-with criteria based on those in {{?RFC8989}}, and obsoletes RFC8989 to make it
-clear that that document has been superceded. The other paragraphs of
-{{Section 4.14 of RFC8713}} remain intact.
+This document replaces the attendance criteria in the first two paragraphs of
+{{Section 4.14 of RFC8713}} with criteria based on those in {{?RFC8989}}, and
+obsoletes RFC8989 to make it clear that that document has been superseded. The
+other paragraphs of {{Section 4.14 of RFC8713}} remain intact.
 
 # Conventions and Definitions
 
@@ -111,88 +111,89 @@ a whole.
 
 However, attitudes to business travel evolve, and remote meeting technology
 continues to improve, to the extent that many longstanding community members
-choose to participate remotely. The system has always excluded some from
-attendance, and thus qualification from the NomCom, due to cost or personal
+choose to participate remotely. A requirement for in-person attendance has
+always excluded some from qualification from the NomCom, due to cost or personal
 reasons. Further, the NomCom has completed two cycles using entirely online
 tools.
 
-Counting remote attendance lowers the barriers to entry. As IETF is committed to
-having a no-fee remote option ({{?I-D.ietf-shmoo-remote-fee}}) the only
-required investment is to log on once per meeting at a specific time (sometimes
-a locally inconvenient hour). While this document does not formally impose a
-requirement for the NomCom to function entirely remotely, including remote-only
-attendees in the pool is likely to effectively require a remote component to
-NomCom operations.
+Counting remote attendance lowers the barriers to entry. As the IETF is
+committed to having a no-fee remote option ({{?I-D.ietf-shmoo-remote-fee}}) the
+only required investment is to log on once per meeting at a specific time
+(sometimes a locally inconvenient hour). While this document does not formally
+impose a requirement for the NomCom to function entirely remotely, including
+remote-only attendees in the pool is likely to effectively require a remote
+component to NomCom operations.
 
-Finally, overly restrictive criteria work against getting a deep talent pool.
+Finally, overly restrictive criteria work against getting a broad talent pool.
 
 # Criteria
 
-The following paths to qualification replace {{Section 4.14 of RFC8713}}. Any
-one of the paths is sufficient, unless the person is otherwise disqualified
-under {{Section 4.15 of RFC8713}}.
+The following paths to qualification replace the first two paragraphs of
+{{Section 4.14 of RFC8713}}. Any one of the paths is sufficient, unless the
+person is otherwise disqualified under {{Section 4.15 of RFC8713}}.
 
 Path 1:
-The person has registered for and attended 3 out of the last 5 IETF meetings,
-either in-person or online. In-person attendance is as determined by the record
-keeping of the Secretariat. Online attendance is based on being a registered
-person who logged in for at least one session of an IETF meeting.
+The person has registered for and attended three out of the last five IETF
+meetings, either in-person or online. In-person attendance is as determined by
+the record keeping of the Secretariat. Online attendance is based on being a
+registered person who logged in for at least one session of an IETF meeting.
 
 Path 2:
-The person has been a Working Group Chair or Secretary within the 3 years prior
-to the day the call for NomCom volunteers is sent to the community.
+The person has been a Working Group Chair or Secretary within the three years
+prior to the day the call for NomCom volunteers is sent to the community.
 
 Path 3:
-The person has been a listed author or editor (on the front page) of at least
-two IETF Stream RFCs within the last 5 years prior to the day the call for
+The person has been a listed author or editor on the front page of at least two
+IETF Stream RFCs within the last five years prior to the day the call for
 NomCom volunteers is sent to the community. An Internet-Draft that has been
 approved by the IESG and is in the RFC Editor queue counts the same as a
 published RFC, with the relevant date being the date the draft was added to the
-RFC Editor queue. For avoidance of doubt, the 5-year timer extends back to the
-date 5 years before the date when the call for NomCom volunteers is sent to the
-community.
+RFC Editor queue. For avoidance of doubt, the five-year timer extends back to
+the date five years before the date when the call for NomCom volunteers is sent
+to the community.
 
 # Security Considerations {#security-considerations}
 
-## NomCom capture
+## NomCom Capture
 
 The most potent threat associated with NomCom eligibility is that an
-organization or group of coordinating organizations would attempt to obtain a majority of
-NomCom positions, in order to select an IETF leadership in support of an agenda
-that might be self-serving and against the interests of the community as a
-whole.
+organization or group of coordinating organizations could attempt to obtain a
+majority of NomCom positions, in order to select an IETF leadership in support
+of an agenda that might be self-serving and against the interests of the
+community as a whole.
 
-Note that {{!RFC8713}} lets the Chair decide the NomCom voting requirement, so a
-simple majority may be inadequate. However, 7 of 10 forms a quorum, so at worst
-seven NomCom members working together can almost certainly impose their will.
+Note that {{!RFC8713}} lets the NomCom Chair decide the NomCom voting
+requirement, so a simple majority may be inadequate. However, seven of ten forms
+a quorum, so at worst seven NomCom members working together can almost certainly
+impose their will.
 
 Whatever the merits of admitting remote attendees, it reduces the minimum cost
-of creating a NomCom-eligible volunteer from three in-person trips of ~5 days each
-over the course of at least 8 months, to zero financial cost and the time
-required to log in three times over at least 8 months. Some organizations might
-not be deterred in either case, while others might now find such an attack to not be
-feasible.
+of creating a NomCom-eligible volunteer from three in-person trips of around
+five days each over the course of at least eight months, to zero financial cost
+and the time required to log in three times over at least eight months. Some
+organizations might not be deterred in either case, while others might now find
+such an attack to not be feasible.
 
 ### A Surge of Volunteers
 
-A large number of "legitimate" volunteers makes it quite difficult to control 6
-of 10 NomCom slots. Setting aside limitations on the number of selections from
+A large number of legitimate volunteers makes it quite difficult to control six
+of ten NomCom slots. Setting aside limitations on the number of selections from
 any organization, basic probability shows that to have even a 50% chance of
-controlling 6 or more NomCom positions, an attacker needs roughly 60% of the
+controlling six or more NomCom positions, an attacker needs roughly 60% of the
 volunteer pool. For example, if there are 300 "legitimate" volunteers, an
 attacker must produce 365 volunteers to exceed a 50% chance of NomCom capture
 (see {{capture-math}}).
 
 A sudden surge in the number of volunteers, particularly of people that no one
 recognizes as a part of the community, is an early-warning sign for the
-community, leadership and the IETF Secretariat to further investigate. The IETF
-should monitor and assess a sudden increase in the number of online registration
-fee waivers awarded in accordance with
+community, leadership and the IETF Secretariat to further investigate. The
+community should monitor and assess a sudden increase in the number of online
+registration fee waivers awarded in accordance with
 {{Section 4 of I-D.ietf-shmoo-remote-fee}}.
 
 While loosening eligibility criteria lowers the cost to an attacker of producing
-eligible volunteers, it also increases the number of "legitimate" volunteers
-that increases the difficulty of an attack.
+eligible volunteers, it also increases the number of legitimate volunteers that
+increases the difficulty of an attack.
 
 ### The Two-Per-Organization Limit
 
@@ -213,22 +214,25 @@ for a 50% chance of NomCom capture (see {{capture-math}}).
 
 ### One Year of Participation
 
-Attendance at 3 meetings requires at least 8 months. Given the volume of
-volunteers necessary to capture the process, an attack requires a surge in
-attendees over the course of a year. Such a surge might trigger a community
-challenge to the list of eligible volunteers, and/or a leadership investigation
-to detect suspicious behavior (e.g. logging in to a single session and then
-immediately logging out). In the event of abuse of process, the leadership would
-then have months to adjust policy in response before the NomCom cycle begins.
+Attendance at three meetings requires at least eight months of waiting. Given
+the volume of volunteers necessary to capture the process, an attack requires a
+surge in attendees over the course of a year. Such a surge might trigger a
+community challenge to the list of eligible volunteers, and/or a leadership
+investigation to detect suspicious behavior (e.g., logging in to a single
+session and then immediately logging out). In the event of abuse of process, the
+leadership would then have months to adjust policy in response before the NomCom
+cycle begins.
 
-## Disruptive candidates
+## Disruptive Candidates
 
-Note that the normalization of consistent remote participation allows for a
-single individual to mount an attack that previously required coordination. By
-registering for IETF meetings using a number of different identities over a year, an individual
-can make each of those identities NomCom eligible and then serve under any one
-of them that is selected for the NomCom.  Once selected, an individual could
-seek to disrupt the process or prevent the timely conclusion of its work.
+Note that the counting remote participation towards NomCom eligibility allows
+for a single individual to mount an attack that previously required
+coordination. By registering for remote attendance to IETF meetings using a
+number of different identities over a year, an individual can make each of those
+identities NomCom eligible and then serve under any one of them that is selected
+for the NomCom. Once selected, an individual could seek to disrupt the process
+or prevent the timely conclusion of its work. Less severely, an attacker could
+simply improve their chances of being selected for NomCom.
 
 This attack is much harder to detect or prevent than equivalent attacks were
 previously, as it does not require coordination among multiple attendees.
@@ -239,7 +243,7 @@ attack more feasible than it would have been under prior rules.
 However, the voting member recall procedure in {{Section 5.7 of RFC8713}} exists
 to allow removal and replacement of disruptive figures.
 
-## Additional remedies
+## Additional Remedies
 
 Additional changes to the process to further obstruct attacks against the
 NomCom are beyond the scope of this document. However, a challenge process
