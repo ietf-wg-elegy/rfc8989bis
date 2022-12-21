@@ -285,7 +285,7 @@ ways to select a NomCom. The number of outcomes where attackers capture the
 NomCom is
 
 ~~~math
-\sum_{i=6}^{10}\left(\binom{A}{i} \binom{L}{10-i}\right)
+\sum_{i=6}^{10}\left[\binom{A}{i} \binom{L}{10-i}\right]
 ~~~
 {: #peq2 artwork-align="center" }
 
@@ -309,8 +309,8 @@ Let B be the number of nominees per attacking organization, so that A = 3B.
 The number of combinations to pick exactly N attackers, N <= 6, is
 
 ~~~math
-C(N) = \binom{L}{10 - N} \sum_{i=0}^{min(N,2)}\left(\binom{B}{i} sum_{j=0}^{min(2,
-N-i)}\left(\binom{B}{j} \binom{B}{min(2, N-i-j)}\right)\right)
+C(N) = \binom{L}{10 - N} \sum_{i=0}^{min(N,2)}\left[\binom{B}{i} \sum_{j=0}^{min(2,
+N-i)}\left(\binom{B}{j} \binom{B}{min(2, N-i-j)}\right)\right]
 ~~~
 {: #peq4 artwork-align="center" }
 
