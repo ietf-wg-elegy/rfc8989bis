@@ -1,0 +1,726 @@
+{
+  "magic": "E!vIA5L86J2I",
+  "timestamp": "2022-12-22T00:28:12.155373+00:00",
+  "repo": "ietf-wg-elegy/rfc8989bis",
+  "labels": [
+    {
+      "name": "bug",
+      "description": "Something isn't working",
+      "color": "d73a4a"
+    },
+    {
+      "name": "documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "name": "duplicate",
+      "description": "This issue or pull request already exists",
+      "color": "cfd3d7"
+    },
+    {
+      "name": "enhancement",
+      "description": "New feature or request",
+      "color": "a2eeef"
+    },
+    {
+      "name": "good first issue",
+      "description": "Good for newcomers",
+      "color": "7057ff"
+    },
+    {
+      "name": "help wanted",
+      "description": "Extra attention is needed",
+      "color": "008672"
+    },
+    {
+      "name": "invalid",
+      "description": "This doesn't seem right",
+      "color": "e4e669"
+    },
+    {
+      "name": "question",
+      "description": "Further information is requested",
+      "color": "d876e3"
+    },
+    {
+      "name": "wontfix",
+      "description": "This will not be worked on",
+      "color": "ffffff"
+    }
+  ],
+  "issues": [
+    {
+      "number": 1,
+      "id": "I_kwDOH7Dq_M5SLLBB",
+      "title": "Directorate Members in Path 2",
+      "url": "https://github.com/ietf-wg-elegy/rfc8989bis/issues/1",
+      "state": "CLOSED",
+      "author": "martinduke",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Members of directorates have been vetted by leadership and (if the directorate is managed correctly) have been actively contributing reviews.\r\n\r\nWe could add \"directorate member\" to Path 2, maybe if they've been in good standing for 2 years.",
+      "createdAt": "2022-09-20T00:12:00Z",
+      "updatedAt": "2022-10-04T17:20:18Z",
+      "closedAt": "2022-10-04T17:20:18Z",
+      "comments": [
+        {
+          "author": "mcr",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "This seems like a good thing to me.",
+          "createdAt": "2022-09-20T13:15:59Z",
+          "updatedAt": "2022-09-20T13:15:59Z"
+        },
+        {
+          "author": "larseggert",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "Do we mean directorates specifically, or also (some of) the other types of groups we have? See https://datatracker.ietf.org/group/",
+          "createdAt": "2022-09-20T13:22:29Z",
+          "updatedAt": "2022-09-20T13:22:29Z"
+        },
+        {
+          "author": "martinduke",
+          "authorAssociation": "COLLABORATOR",
+          "body": "I don't have a strong opinion about other groups, but to me the criteria are that they (1) do work and (2) their membership is vetted in some way (i.e. you can be fired for not doing anything)",
+          "createdAt": "2022-09-21T00:23:07Z",
+          "updatedAt": "2022-09-21T00:23:07Z"
+        },
+        {
+          "author": "martinduke",
+          "authorAssociation": "COLLABORATOR",
+          "body": "As discussed at the interim, I don't think this makes any sense given our full inclusion of remote participants. No one spoke up for this at the meeting so I'm closing it.",
+          "createdAt": "2022-10-04T17:20:18Z",
+          "updatedAt": "2022-10-04T17:20:18Z"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "id": "I_kwDOH7Dq_M5SuHvJ",
+      "title": "Available Data",
+      "url": "https://github.com/ietf-wg-elegy/rfc8989bis/issues/5",
+      "state": "CLOSED",
+      "author": "martinduke",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "The \"Available Data\" section is empty",
+      "createdAt": "2022-09-27T14:00:40Z",
+      "updatedAt": "2022-12-01T18:34:03Z",
+      "closedAt": "2022-12-01T18:34:03Z",
+      "comments": [
+        {
+          "author": "martinduke",
+          "authorAssociation": "COLLABORATOR",
+          "body": "If there are any suggestions for what to include, (or better yet actual data to contribute), this is the place.",
+          "createdAt": "2022-09-27T14:02:14Z",
+          "updatedAt": "2022-09-27T14:02:14Z"
+        },
+        {
+          "author": "martinduke",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Consensus on the list was to just not have the section.",
+          "createdAt": "2022-12-01T18:32:26Z",
+          "updatedAt": "2022-12-01T18:32:26Z"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "id": "I_kwDOH7Dq_M5SuH0B",
+      "title": "Finish Acknowledgments",
+      "url": "https://github.com/ietf-wg-elegy/rfc8989bis/issues/6",
+      "state": "CLOSED",
+      "author": "martinduke",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2022-09-27T14:00:54Z",
+      "updatedAt": "2022-10-04T17:25:26Z",
+      "closedAt": "2022-10-04T17:25:26Z",
+      "comments": [
+        {
+          "author": "martinduke",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Fixed by https://github.com/ietf-wg-elegy/rfc8989bis/commit/b687844f3b617ef8ef8848697813b4f9275a9d0e",
+          "createdAt": "2022-10-04T17:25:26Z",
+          "updatedAt": "2022-10-04T17:25:26Z"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "id": "I_kwDOH7Dq_M5VqRnB",
+      "title": "Attendance Criteria is Way Too Lax",
+      "url": "https://github.com/ietf-wg-elegy/rfc8989bis/issues/9",
+      "state": "CLOSED",
+      "author": "d3e3e3",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "While it is true that just picking up your badge counted as \"attendance\" in the past, in reality the vast majority of \"attendees\" at IETF meetings attended numerous sessions over several days if not the entire week. Since session attendance was recorded manually on the Blue Sheets, it would have been quite burdensome to actually check the number of sessions someone had attended, or the like.\r\n\r\nNow, with hybrid meetings, per session attendance data is all available online. This makes it practical to require larger amount of participation at IETF meetings as part of the criteria for nomcom eligibility. The current criteria in the draft, of checking in to attend one session, is way too lax. A person who habitually attends only one session per IETF meeting or who only attends session of one WG is a very narrow participant in the IETF and should not be eligible for nomcom.\r\n\r\nFor an example of attendance criteria for a week long meeting that has been used by another standards organization, see Section 7.1 of https://mentor.ieee.org/802.11/dcn/14/11-14-0629-21-0000-802-11-operations-manual.docx which defines attendance as attending for 75% of the session hours during a week. (In 802.11, attendance is used to earn voting rights.) I do not think we need to be that stringent. But I would say that someone who does not attend at least two sessions a day for three days of an IETF meeting week really cannot be reasonably described as having attended that IETF meeting.",
+      "createdAt": "2022-11-05T18:30:00Z",
+      "updatedAt": "2022-12-05T18:18:49Z",
+      "closedAt": "2022-12-05T18:18:49Z",
+      "comments": [
+        {
+          "author": "mstjohns",
+          "authorAssociation": "NONE",
+          "body": "Yeah - no.   A good portion of the participation that's most useful for a Nomcom participant are the various ad-hoc hallway and bar sessions.   Now I'm not necessarily opposed to including my bar tab and a list of interactees when I volunteer for the Nomcom, but I think that might be difficult to verify and tabulate by a third party.    \r\n\r\nWRT to the comparison to an IEEE meeting - I'm not very familiar with the scope of the meeting to which the 75% applies, but from discussions with folk who have attended IEEE as part of their funded lifestyles, that IEEE meeting you're referring to tends to be more closely matched in scope to an IETF working group or small cluster of working groups than to the IETF week-long whole ball of wax.  \r\n\r\nI would oppose this change in criteria.  Mike\r\n",
+          "createdAt": "2022-11-07T22:19:13Z",
+          "updatedAt": "2022-11-07T22:19:13Z"
+        },
+        {
+          "author": "martinduke",
+          "authorAssociation": "COLLABORATOR",
+          "body": "The solution was to add some text to security consderations (see #12).\r\n\r\nLeaving this open for now, but will close later if there are no further concerns.",
+          "createdAt": "2022-12-01T18:34:53Z",
+          "updatedAt": "2022-12-01T18:34:53Z"
+        },
+        {
+          "author": "martinduke",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Closing due to a lack of additional comments.",
+          "createdAt": "2022-12-05T18:18:49Z",
+          "updatedAt": "2022-12-05T18:18:49Z"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "id": "I_kwDOH7Dq_M5VuSB5",
+      "title": "Inferior Working Group Functionaries",
+      "url": "https://github.com/ietf-wg-elegy/rfc8989bis/issues/10",
+      "state": "CLOSED",
+      "author": "d3e3e3",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "Working Group Chairs are substantially involved in IETF processes and are trusted to make consensus judgements. It is reasonable for someone who has served for a reasonable length of time as a Working Group Chair to be eligible to serve on the Nominations Committee, although it appears this will only enable a tiny number of people who would not otherwise qualify.\r\n\r\nThe same cannot be said of Working Group Secretaries or other Working Group functionaries, such as Technical Advisors or meeting scribes, who can be appointed and removed by the Chair. They should not, merely because they are such WG functionaries, be thereby eligible for Nominations Committee voting membership.\r\n",
+      "createdAt": "2022-11-07T11:20:55Z",
+      "updatedAt": "2022-11-09T16:21:22Z",
+      "closedAt": "2022-11-09T16:21:21Z",
+      "comments": [
+        {
+          "author": "martinduke",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Discussed in London. No one strongly objects to keeping secretaries in.",
+          "createdAt": "2022-11-09T16:21:21Z",
+          "updatedAt": "2022-11-09T16:21:21Z"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "id": "I_kwDOH7Dq_M5WV4x5",
+      "title": "More Security Considerations",
+      "url": "https://github.com/ietf-wg-elegy/rfc8989bis/issues/11",
+      "state": "CLOSED",
+      "author": "martinduke",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Some things that came up in London:\r\n\r\n- a different threat is a single person trying to get on the Nomcom to be disruptive (can they be expelled?)\r\n- Nomcom confirmation\r\n- fee waivers are a lever\r\n-  maybe add an eligibility challenge step?",
+      "createdAt": "2022-11-14T18:58:41Z",
+      "updatedAt": "2022-11-29T15:03:25Z",
+      "closedAt": "2022-11-29T15:03:25Z",
+      "comments": []
+    }
+  ],
+  "pulls": [
+    {
+      "number": 2,
+      "id": "PR_kwDOH7Dq_M4_bbHr",
+      "title": "Porposal: updating 4.14 partially & leaving the other paragraphs intact",
+      "url": "https://github.com/ietf-wg-elegy/rfc8989bis/pull/2",
+      "state": "MERGED",
+      "author": "laburdet",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Proposal for introduction re: updating 4.14 partially & leaving the last paragraphs intact.\r\n\r\n+ typo in formulas (missing closing paren)",
+      "createdAt": "2022-09-22T13:10:48Z",
+      "updatedAt": "2022-09-22T17:43:42Z",
+      "baseRepository": "ietf-wg-elegy/rfc8989bis",
+      "baseRefName": "main",
+      "baseRefOid": "a1a0eb348c8976422bdb7c545625f0139a86c934",
+      "headRepository": "laburdet/rfc8989bis",
+      "headRefName": "main",
+      "headRefOid": "64fbafb5c3fa7e931570ff707e8f6faedba90a4b",
+      "closedAt": "2022-09-22T17:43:42Z",
+      "mergedAt": "2022-09-22T17:43:42Z",
+      "mergedBy": "martinduke",
+      "mergeCommit": {
+        "oid": "14ee23c03a68e02b1de00afb749e160d9a965b74"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOH7Dq_M5Cmvzz",
+          "commit": {
+            "abbreviatedOid": "8bdddc7"
+          },
+          "author": "martinduke",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2022-09-22T17:42:34Z",
+          "updatedAt": "2022-09-22T17:43:23Z",
+          "comments": [
+            {
+              "originalPosition": 10,
+              "body": "```suggestion\r\ncriteria loosely based on those in {{?RFC8989}}.\r\n```",
+              "createdAt": "2022-09-22T17:42:34Z",
+              "updatedAt": "2022-09-22T17:43:23Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "id": "PR_kwDOH7Dq_M4_bfaF",
+      "title": "leftover <em> tags",
+      "url": "https://github.com/ietf-wg-elegy/rfc8989bis/pull/3",
+      "state": "MERGED",
+      "author": "laburdet",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "cleanup\r\n\r\nSigned-off-by: laburdet <laburdet@gmail.com>",
+      "createdAt": "2022-09-22T13:24:18Z",
+      "updatedAt": "2022-09-22T14:10:21Z",
+      "baseRepository": "ietf-wg-elegy/rfc8989bis",
+      "baseRefName": "main",
+      "baseRefOid": "a1a0eb348c8976422bdb7c545625f0139a86c934",
+      "headRepository": "laburdet/rfc8989bis",
+      "headRefName": "patch-1",
+      "headRefOid": "cceb8689b40e90c13965265c59dde283bd57865c",
+      "closedAt": "2022-09-22T14:07:54Z",
+      "mergedAt": "2022-09-22T14:07:54Z",
+      "mergedBy": "martinduke",
+      "mergeCommit": {
+        "oid": "ee18f6f9a321e7486171cbab879ae90d303c60d7"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOH7Dq_M5CleUI",
+          "commit": {
+            "abbreviatedOid": "cceb868"
+          },
+          "author": "martinduke",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "Thanks",
+          "createdAt": "2022-09-22T14:07:49Z",
+          "updatedAt": "2022-09-22T14:07:49Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "id": "PR_kwDOH7Dq_M4_cp5y",
+      "title": "Create in-solidarity.yml",
+      "url": "https://github.com/ietf-wg-elegy/rfc8989bis/pull/4",
+      "state": "MERGED",
+      "author": "larseggert",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Adding a check for inclusive language\r\n\r\nSigned-off-by: Lars Eggert <lars@eggert.org>",
+      "createdAt": "2022-09-22T17:46:56Z",
+      "updatedAt": "2022-09-26T22:20:22Z",
+      "baseRepository": "ietf-wg-elegy/rfc8989bis",
+      "baseRefName": "main",
+      "baseRefOid": "14ee23c03a68e02b1de00afb749e160d9a965b74",
+      "headRepository": "ietf-wg-elegy/rfc8989bis",
+      "headRefName": "larseggert-patch-1",
+      "headRefOid": "790f4b283d095210f56801edf7a5950476e3bd0f",
+      "closedAt": "2022-09-26T22:20:21Z",
+      "mergedAt": "2022-09-26T22:20:21Z",
+      "mergedBy": "martinduke",
+      "mergeCommit": {
+        "oid": "523739aba6dad754928f181bc7e4969903842d85"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 7,
+      "id": "PR_kwDOH7Dq_M5AWIf3",
+      "title": "Carpenter nits",
+      "url": "https://github.com/ietf-wg-elegy/rfc8989bis/pull/7",
+      "state": "MERGED",
+      "author": "martinduke",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2022-10-06T20:09:20Z",
+      "updatedAt": "2022-10-06T20:58:34Z",
+      "baseRepository": "ietf-wg-elegy/rfc8989bis",
+      "baseRefName": "main",
+      "baseRefOid": "b687844f3b617ef8ef8848697813b4f9275a9d0e",
+      "headRepository": "ietf-wg-elegy/rfc8989bis",
+      "headRefName": "carpenter",
+      "headRefOid": "e9e28e1505e7d06f0f1802c9383f9159f04a9d59",
+      "closedAt": "2022-10-06T20:58:34Z",
+      "mergedAt": "2022-10-06T20:58:34Z",
+      "mergedBy": "martinduke",
+      "mergeCommit": {
+        "oid": "48b5f84b98d207384f29ee952eec6fc85ac6ea61"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 8,
+      "id": "PR_kwDOH7Dq_M5AWS9F",
+      "title": "Donald Eastlake nits",
+      "url": "https://github.com/ietf-wg-elegy/rfc8989bis/pull/8",
+      "state": "MERGED",
+      "author": "martinduke",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2022-10-06T20:54:13Z",
+      "updatedAt": "2022-11-14T20:51:39Z",
+      "baseRepository": "ietf-wg-elegy/rfc8989bis",
+      "baseRefName": "main",
+      "baseRefOid": "48b5f84b98d207384f29ee952eec6fc85ac6ea61",
+      "headRepository": "ietf-wg-elegy/rfc8989bis",
+      "headRefName": "eastlake",
+      "headRefOid": "7847b2071bda02abbcd9338afab68341fc62dfb4",
+      "closedAt": "2022-11-14T20:51:38Z",
+      "mergedAt": "2022-11-14T20:51:38Z",
+      "mergedBy": "martinduke",
+      "mergeCommit": {
+        "oid": "33fdd7bc19eb3a5957bb466d6a3d005711797eef"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 12,
+      "id": "PR_kwDOH7Dq_M5C38Zt",
+      "title": "New security considerations from London",
+      "url": "https://github.com/ietf-wg-elegy/rfc8989bis/pull/12",
+      "state": "MERGED",
+      "author": "martinduke",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Fixes #11 ",
+      "createdAt": "2022-11-14T20:51:29Z",
+      "updatedAt": "2022-12-21T03:18:37Z",
+      "baseRepository": "ietf-wg-elegy/rfc8989bis",
+      "baseRefName": "main",
+      "baseRefOid": "33fdd7bc19eb3a5957bb466d6a3d005711797eef",
+      "headRepository": "ietf-wg-elegy/rfc8989bis",
+      "headRefName": "security",
+      "headRefOid": "b57892fd2bbb61a8b9c046d113300886087a7b74",
+      "closedAt": "2022-11-29T15:03:24Z",
+      "mergedAt": "2022-11-29T15:03:23Z",
+      "mergedBy": "martinduke",
+      "mergeCommit": {
+        "oid": "c9f475dbca72d22532baa72bb89e88842f7194a0"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOH7Dq_M5GU0s0",
+          "commit": {
+            "abbreviatedOid": "84d1947"
+          },
+          "author": "becarpenter",
+          "authorAssociation": "NONE",
+          "state": "APPROVED",
+          "body": "Works for me",
+          "createdAt": "2022-11-14T21:19:41Z",
+          "updatedAt": "2022-11-14T21:19:41Z",
+          "comments": []
+        },
+        {
+          "id": "PRR_kwDOH7Dq_M5GjqKe",
+          "commit": {
+            "abbreviatedOid": "3870fc9"
+          },
+          "author": "larseggert",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "CHANGES_REQUESTED",
+          "body": "",
+          "createdAt": "2022-11-17T06:51:30Z",
+          "updatedAt": "2022-11-17T07:00:33Z",
+          "comments": [
+            {
+              "originalPosition": 10,
+              "body": "```suggestion\r\nThe most potent threat associated with NomCom eligibility is that an\r\n```\r\nIt's a threat, not a model.",
+              "createdAt": "2022-11-17T06:51:30Z",
+              "updatedAt": "2022-11-17T07:00:52Z"
+            },
+            {
+              "originalPosition": 11,
+              "body": "```suggestion\r\norganization or group of coordinating organizations would attempt to obtain a majority of\r\n```",
+              "createdAt": "2022-11-17T06:51:51Z",
+              "updatedAt": "2022-11-17T07:00:33Z"
+            },
+            {
+              "originalPosition": 20,
+              "body": "```suggestion\r\nof creating a NomCom-eligible volunteer from three in-person trips of ~5 days each\r\n```",
+              "createdAt": "2022-11-17T06:53:30Z",
+              "updatedAt": "2022-11-17T07:00:33Z"
+            },
+            {
+              "originalPosition": 26,
+              "body": "```suggestion\r\nnot be deterred in either case, while others might now find such an attack to not be\r\n```",
+              "createdAt": "2022-11-17T06:54:57Z",
+              "updatedAt": "2022-11-17T07:00:33Z"
+            },
+            {
+              "originalPosition": 40,
+              "body": "```suggestion\r\nrecognizes as a part of the community, is an early-warning sign for the community, leadership\r\n```",
+              "createdAt": "2022-11-17T06:55:42Z",
+              "updatedAt": "2022-11-17T07:00:33Z"
+            },
+            {
+              "originalPosition": 43,
+              "body": "In-person fee waivers are issued by the IETF and IRTF chairs, but remote ones are supposed to be freely available, see draft-ietf-shmoo-remote-fee (which will be a BCP soon). We may need to add something to the security considerations of draft-ietf-shmoo-remote-fee if the intent is for someone to have the ability to deny those remote waivers.",
+              "createdAt": "2022-11-17T06:58:00Z",
+              "updatedAt": "2022-11-17T07:00:33Z"
+            },
+            {
+              "originalPosition": 71,
+              "body": "```suggestion\r\nregistering for IETF meetings using a number of different identities over a year, an individual\r\n```",
+              "createdAt": "2022-11-17T06:58:35Z",
+              "updatedAt": "2022-11-17T07:00:33Z"
+            },
+            {
+              "originalPosition": 91,
+              "body": "The secretariat is not the IETF police. They would only provide data to leadership, and someone in leadership would need to make a decision. (Please check this wherever you talk about the secretariat doing something.)",
+              "createdAt": "2022-11-17T07:00:17Z",
+              "updatedAt": "2022-11-17T07:00:33Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOH7Dq_M5G-FQQ",
+          "commit": {
+            "abbreviatedOid": "3870fc9"
+          },
+          "author": "martinduke",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2022-11-22T19:42:13Z",
+          "updatedAt": "2022-11-22T19:42:13Z",
+          "comments": [
+            {
+              "originalPosition": 43,
+              "body": "In the remote-fee draft, it says: \"If the free option requires additional registration steps, such as applying for a fee waiver, those requirements should be clearly documented.\" An application suggests a possible refusal? Section 4 of that draft also mentions potential misuse. I'll instead refer to Section 4 rather than pinning it on the chairs.",
+              "createdAt": "2022-11-22T19:42:13Z",
+              "updatedAt": "2022-11-22T19:42:13Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOH7Dq_M5HADyi",
+          "commit": {
+            "abbreviatedOid": "3870fc9"
+          },
+          "author": "larseggert",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2022-11-23T08:14:31Z",
+          "updatedAt": "2022-11-23T08:14:32Z",
+          "comments": [
+            {
+              "originalPosition": 43,
+              "body": "I think the intent is that remote fee waivers be available freely, i.e., without much checking or process, and that they only be limited in extraordinary circumstances. So this draft should assume they are widely available to anyone.",
+              "createdAt": "2022-11-23T08:14:32Z",
+              "updatedAt": "2022-11-23T08:14:32Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOH7Dq_M5HAEQ1",
+          "commit": {
+            "abbreviatedOid": "f69aa81"
+          },
+          "author": "larseggert",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "CHANGES_REQUESTED",
+          "body": "",
+          "createdAt": "2022-11-23T08:16:14Z",
+          "updatedAt": "2022-11-23T08:16:48Z",
+          "comments": [
+            {
+              "originalPosition": 75,
+              "body": "We should not task the secretariat with this, since they don't know what an \"unexplained surge\" might look like.\r\n\r\nIf we want a safeguard here, it should IMO take the form of a community review/challenge period.",
+              "createdAt": "2022-11-23T08:16:14Z",
+              "updatedAt": "2022-11-23T08:16:48Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOH7Dq_M5HWRDx",
+          "commit": {
+            "abbreviatedOid": "b57892f"
+          },
+          "author": "larseggert",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2022-11-29T07:39:06Z",
+          "updatedAt": "2022-11-29T07:39:06Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "id": "PR_kwDOH7Dq_M5EFXAX",
+      "title": "Remove data section",
+      "url": "https://github.com/ietf-wg-elegy/rfc8989bis/pull/13",
+      "state": "MERGED",
+      "author": "martinduke",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "\r\nFix #5 ",
+      "createdAt": "2022-12-01T18:33:18Z",
+      "updatedAt": "2022-12-21T03:18:35Z",
+      "baseRepository": "ietf-wg-elegy/rfc8989bis",
+      "baseRefName": "main",
+      "baseRefOid": "c9f475dbca72d22532baa72bb89e88842f7194a0",
+      "headRepository": "ietf-wg-elegy/rfc8989bis",
+      "headRefName": "no-data",
+      "headRefOid": "a4c663116698830d94ceecf46b0dab0d9518cf4d",
+      "closedAt": "2022-12-01T18:34:02Z",
+      "mergedAt": "2022-12-01T18:34:02Z",
+      "mergedBy": "martinduke",
+      "mergeCommit": {
+        "oid": "146d87a24830a88acad49b467500f4636efbf291"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 14,
+      "id": "PR_kwDOH7Dq_M5EYCyH",
+      "title": "Farrell and Carpenter comments",
+      "url": "https://github.com/ietf-wg-elegy/rfc8989bis/pull/14",
+      "state": "MERGED",
+      "author": "martinduke",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Editorial comments from email.",
+      "createdAt": "2022-12-05T18:30:00Z",
+      "updatedAt": "2022-12-21T03:18:34Z",
+      "baseRepository": "ietf-wg-elegy/rfc8989bis",
+      "baseRefName": "main",
+      "baseRefOid": "146d87a24830a88acad49b467500f4636efbf291",
+      "headRepository": "ietf-wg-elegy/rfc8989bis",
+      "headRefName": "farrell-carpenter",
+      "headRefOid": "ff6b9c20181aa28fd8b1f2cf6ead6750bfbdb5cf",
+      "closedAt": "2022-12-11T23:32:43Z",
+      "mergedAt": "2022-12-11T23:32:43Z",
+      "mergedBy": "martinduke",
+      "mergeCommit": {
+        "oid": "db8baccfe2dde4209aeff86c33b704c98bcc8886"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOH7Dq_M5IDesD",
+          "commit": {
+            "abbreviatedOid": "ff6b9c2"
+          },
+          "author": "mcr",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2022-12-07T17:50:29Z",
+          "updatedAt": "2022-12-07T17:50:29Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "id": "PR_kwDOH7Dq_M5F5V80",
+      "title": "Lars AD Review",
+      "url": "https://github.com/ietf-wg-elegy/rfc8989bis/pull/15",
+      "state": "MERGED",
+      "author": "martinduke",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2022-12-20T19:11:32Z",
+      "updatedAt": "2022-12-21T18:17:00Z",
+      "baseRepository": "ietf-wg-elegy/rfc8989bis",
+      "baseRefName": "main",
+      "baseRefOid": "db8baccfe2dde4209aeff86c33b704c98bcc8886",
+      "headRepository": "ietf-wg-elegy/rfc8989bis",
+      "headRefName": "ad-review",
+      "headRefOid": "c6e23494484c158a571a2bdb728ed987de733c3e",
+      "closedAt": "2022-12-21T18:12:46Z",
+      "mergedAt": "2022-12-21T18:12:46Z",
+      "mergedBy": "martinduke",
+      "mergeCommit": {
+        "oid": "d65aaf9b833d668e6d3aa0a0e691ada12c32b5c6"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOH7Dq_M5JG4P5",
+          "commit": {
+            "abbreviatedOid": "c6e2349"
+          },
+          "author": "larseggert",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2022-12-21T18:03:36Z",
+          "updatedAt": "2022-12-21T18:03:36Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "id": "PR_kwDOH7Dq_M5F6vYO",
+      "title": "latex",
+      "url": "https://github.com/ietf-wg-elegy/rfc8989bis/pull/16",
+      "state": "MERGED",
+      "author": "martinduke",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2022-12-21T00:53:28Z",
+      "updatedAt": "2022-12-21T03:20:56Z",
+      "baseRepository": "ietf-wg-elegy/rfc8989bis",
+      "baseRefName": "main",
+      "baseRefOid": "db8baccfe2dde4209aeff86c33b704c98bcc8886",
+      "headRepository": "ietf-wg-elegy/rfc8989bis",
+      "headRefName": "math",
+      "headRefOid": "d8bc1f779755080011aeb1368fa009e9df14a163",
+      "closedAt": "2022-12-21T03:20:56Z",
+      "mergedAt": "2022-12-21T03:20:56Z",
+      "mergedBy": "martinduke",
+      "mergeCommit": {
+        "oid": "95b9810864b1312903a836e44b378e7746e110bf"
+      },
+      "comments": [],
+      "reviews": []
+    }
+  ]
+}
