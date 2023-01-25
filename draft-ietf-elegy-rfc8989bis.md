@@ -83,14 +83,6 @@ This document replaces the attendance criteria in the first two paragraphs of
 obsoletes RFC8989 to make it clear that that document has been superseded. The
 other paragraphs of {{Section 4.14 of RFC8713}} remain intact.
 
-# Conventions and Definitions
-
-The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL
-NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "NOT RECOMMENDED",
-"MAY", and "OPTIONAL" in this document are to be interpreted as
-described in BCP 14 {{!RFC2119}} {{!RFC8174}} when, and only when, they
-appear in all capitals, as shown here.
-
 # NomCom Principles
 
 The NomCom is intended to be composed of randomly selected members of "the
