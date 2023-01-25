@@ -80,8 +80,9 @@ qualification based on attendance should work.
 
 This document replaces the attendance criteria in the first two paragraphs of
 {{Section 4.14 of RFC8713}} with criteria based on those in {{?RFC8989}}, and
-obsoletes RFC8989 to make it clear that that document has been superseded. The
-other paragraphs of {{Section 4.14 of RFC8713}} remain intact.
+obsoletes RFC8989 to make it clear that that document has been superseded. All
+other thest in {{RFC8713}}, including the other paragraphs of Section 4.14,
+remain unchanged.
 
 # Conventions and Definitions
 
@@ -128,9 +129,12 @@ Finally, overly restrictive criteria work against getting a broad talent pool.
 
 # Criteria
 
-The following paths to qualification replace the first two paragraphs of
-{{Section 4.14 of RFC8713}}. Any one of the paths is sufficient, unless the
-person is otherwise disqualified under {{Section 4.15 of RFC8713}}.
+The following text replaces the first two paragraphs of
+{{Section 4.14 of RFC8713}}:
+
+Members of the IETF community must satisfy the conditions in one of three paths
+in order to volunteer. Any one of the paths is sufficient, unless the person is
+otherwise disqualified under {{Section 4.15 of RFC8713}}.
 
 Path 1:
 The person has registered for and attended three out of the last five IETF
