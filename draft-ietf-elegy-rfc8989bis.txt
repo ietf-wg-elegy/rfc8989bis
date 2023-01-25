@@ -220,8 +220,7 @@ Table of Contents
    person trips of around five days each over the course of at least
    eight months, to zero financial cost and the time required to log in
    three times over at least eight months.  Some organizations might not
-   be deterred in either case, while others might now find such an
-   attack to not be feasible.
+   be deterred in either case, while others might.
 
 4.1.1.  A Surge of Volunteers
 
