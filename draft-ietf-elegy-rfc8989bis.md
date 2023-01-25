@@ -100,9 +100,7 @@ commitment associated with being a member. Two days of travel and an attendance
 fee is a relatively large expenditure of time and money. Additionally, in-person
 attendance is thought to increase personal familiarity with candidates for
 leadership positions and with the spirit of the IETF, although there is no
-mechanism to ensure any interactions. Finally, the NomCom interview process was
-largely conducted in-person at IETF meetings, so the ability to attend was a
-prerequisite to participate.
+mechanism to ensure any interactions.
 
 A basic principle is that the community should govern itself, so volunteers
 must have a demonstrated commitment to the IETF. Limiting the number of
