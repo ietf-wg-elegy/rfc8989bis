@@ -81,8 +81,8 @@ qualification based on attendance should work.
 This document replaces the attendance criteria in the first two paragraphs of
 {{Section 4.14 of RFC8713}} with criteria based on those in {{?RFC8989}}, and
 obsoletes RFC8989 to make it clear that that document has been superseded. All
-other thest in {{RFC8713}}, including the other paragraphs of Section 4.14,
-remain unchanged.
+other text in {{RFC8713}}, including the other paragraphs of Section 4.14,
+remains unchanged.
 
 # Conventions and Definitions
 
