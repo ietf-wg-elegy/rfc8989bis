@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2022-12-22T00:28:12.155373+00:00",
+  "timestamp": "2023-01-26T00:28:07.265783+00:00",
   "repo": "ietf-wg-elegy/rfc8989bis",
   "labels": [
     {
@@ -718,6 +718,90 @@
       "mergedBy": "martinduke",
       "mergeCommit": {
         "oid": "95b9810864b1312903a836e44b378e7746e110bf"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 17,
+      "id": "PR_kwDOH7Dq_M5Ih9l8",
+      "title": "GenArt review",
+      "url": "https://github.com/ietf-wg-elegy/rfc8989bis/pull/17",
+      "state": "MERGED",
+      "author": "martinduke",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2023-01-25T16:59:32Z",
+      "updatedAt": "2023-01-25T17:38:01Z",
+      "baseRepository": "ietf-wg-elegy/rfc8989bis",
+      "baseRefName": "main",
+      "baseRefOid": "53ad38352d86ce3c5a9d83dbae1857b1a0cbe35e",
+      "headRepository": "ietf-wg-elegy/rfc8989bis",
+      "headRefName": "genart",
+      "headRefOid": "2a0fa8a4c4636628a71d13b2eae57bb05f2a008b",
+      "closedAt": "2023-01-25T17:38:01Z",
+      "mergedAt": "2023-01-25T17:38:00Z",
+      "mergedBy": "martinduke",
+      "mergeCommit": {
+        "oid": "bff07ad748a0e0f9ee204653386ff37307594778"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 18,
+      "id": "PR_kwDOH7Dq_M5IiBOF",
+      "title": "TSVART review",
+      "url": "https://github.com/ietf-wg-elegy/rfc8989bis/pull/18",
+      "state": "MERGED",
+      "author": "martinduke",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2023-01-25T17:10:25Z",
+      "updatedAt": "2023-01-25T17:37:50Z",
+      "baseRepository": "ietf-wg-elegy/rfc8989bis",
+      "baseRefName": "main",
+      "baseRefOid": "53ad38352d86ce3c5a9d83dbae1857b1a0cbe35e",
+      "headRepository": "ietf-wg-elegy/rfc8989bis",
+      "headRefName": "tsvart",
+      "headRefOid": "06a8a58e7a5024bfcba7d3646b1d6d5337413c2a",
+      "closedAt": "2023-01-25T17:37:50Z",
+      "mergedAt": "2023-01-25T17:37:50Z",
+      "mergedBy": "martinduke",
+      "mergeCommit": {
+        "oid": "09ac116c6bc4fd7ba8df55e623f4dd5d82a90f35"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 19,
+      "id": "PR_kwDOH7Dq_M5IiJKb",
+      "title": "ARTART review",
+      "url": "https://github.com/ietf-wg-elegy/rfc8989bis/pull/19",
+      "state": "MERGED",
+      "author": "martinduke",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2023-01-25T17:35:08Z",
+      "updatedAt": "2023-01-25T17:37:37Z",
+      "baseRepository": "ietf-wg-elegy/rfc8989bis",
+      "baseRefName": "main",
+      "baseRefOid": "53ad38352d86ce3c5a9d83dbae1857b1a0cbe35e",
+      "headRepository": "ietf-wg-elegy/rfc8989bis",
+      "headRefName": "artart",
+      "headRefOid": "af530ba63fc5a6eb821d5a2b0270e5a25b3658aa",
+      "closedAt": "2023-01-25T17:37:37Z",
+      "mergedAt": "2023-01-25T17:37:36Z",
+      "mergedBy": "martinduke",
+      "mergeCommit": {
+        "oid": "f08f692b8e6749fbc469a3e922bebfe44a4de297"
       },
       "comments": [],
       "reviews": []
