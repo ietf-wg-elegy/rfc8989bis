@@ -8,7 +8,7 @@ ipr: trust200902
 area: General
 workgroup: ELEGY
 keyword: Internet-Draft
-obsoletes: 8989
+obsoletes: 8788, 8989
 updates: 8713
 
 stand_alone: yes
