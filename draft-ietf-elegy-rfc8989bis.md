@@ -183,7 +183,7 @@ community, leadership and the IETF Secretariat to further investigate, and where
 needed take action as defined in  RFC 8713 Section 3.7.3 to invalidate such
 candidates. The community should monitor and assess a sudden increase in the
 number of online registration fee waivers awarded in accordance with
-{{Section 4 of I-D.ietf-shmoo-remote-fee}}. 
+{{Section 4 of I-D.ietf-shmoo-remote-fee}}.
 
 While loosening eligibility criteria lowers the cost to an attacker of producing
 eligible volunteers, it also increases the number of legitimate volunteers that
