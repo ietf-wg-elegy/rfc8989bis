@@ -4,10 +4,10 @@
 
 ELEGY                                                            M. Duke
 Internet-Draft                                                Google LLC
-Obsoletes: 8989 (if approved)                            25 January 2023
+Obsoletes: 8788, 8989 (if approved)                      2 February 2023
 Updates: 8713 (if approved)                                             
 Intended status: Best Current Practice                                  
-Expires: 29 July 2023
+Expires: 6 August 2023
 
 
                     Nominating Committee Eligibility
@@ -49,7 +49,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 29 July 2023.
+   This Internet-Draft will expire on 6 August 2023.
 
 Copyright Notice
 
@@ -350,9 +350,9 @@ Appendix A.  NomCom Capture Calculations
    Note that the number of combinations of b items chosen from a
    population of a item is often expressed as
 
-                                          a !
-                      binom{a}{b} = {--------------}
-                                     (a - b) ! b !
+                              ⎛a⎞      a!
+                              ⎜ ⎟ = ────────
+                              ⎝b⎠   (a-b)!b!
 
                                   Figure 1
 
@@ -366,22 +366,31 @@ A.1.  No per-organization limit
    with an attacker" and A be the number of attacking volunteers.  Then
    there are
 
-   binom{L + A}{10}
+   ⎛L+A⎞
+   ⎜   ⎟
+   ⎝ 10⎠
 
    ways to select a NomCom.  The number of outcomes where attackers
    capture the NomCom is
 
-                   __ 10
-                  \        [binom{A}{i}binom{L}{10 - i}]
-                  /__ i = 6
+                              10
+                              ⎯⎯
+                              ╲  ⎡⎛A⎞ ⎛ L  ⎞⎤
+                              ╱  ⎢⎜ ⎟ ⎜    ⎟⎥
+                              ⎺⎺ ⎣⎝i⎠ ⎝10-i⎠⎦
+                              i=6
 
                                   Figure 2
 
    and the probability of capture is therefore
 
-                   __ 10    binom{A}{i}binom{L}{10 - i}
-                  \        {---------------------------}
-                  /__ i = 6      binom{L + A}{10}
+                               10 ⎛A⎞ ⎛ L  ⎞
+                               ⎯⎯ ⎜ ⎟ ⎜    ⎟
+                               ╲  ⎝i⎠ ⎝10-i⎠
+                               ╱  ──────────
+                               ⎺⎺  ⎛L + A⎞
+                               i=6 ⎜     ⎟
+                                   ⎝  10 ⎠
 
                                   Figure 3
 
@@ -399,22 +408,25 @@ A.2.  Two per Organization
 
    The number of combinations to pick exactly N attackers, N <= 6, is
 
-                                               C(N) =
+                       min(N,2)⎡    min(2,N-i)                     ⎤
+                          ⎯⎯   ⎢        ⎯⎯                         ⎥
+              ⎛  L   ⎞    ╲    ⎢⎛B⎞     ╲     ⎛⎛B⎞ ⎛      B      ⎞⎞⎥
+       C(N) = ⎜      ⎟    ╱    ⎢⎜ ⎟     ╱     ⎜⎜ ⎟ ⎜             ⎟⎟⎥
+              ⎝10 - N⎠    ⎺⎺   ⎢⎝i⎠     ⎺⎺    ⎝⎝j⎠ ⎝min(2, N-i-j)⎠⎠⎥
+                          i=0  ⎣        j=0                        ⎦
 
-                              _                                                                    _
-                 __ min(N, 2)|             __ min(2, N - i)                                         |
-binom{L}{10 - N}\            | binom{B}{i}\                (binom{B}{j}binom{B}{min(2, N - i - j)}) |
-                /__ i = 0    |_           /__ j = 0                                                _|
-
-                               Figure 4
+                                  Figure 4
 
    And the probability of capture is
 
-                                   C(6)
-                              {-------------}
-                                __ 6
-                               \        C(i)
-                               /__ i = 0
+                                    C(6)
+                                  ───────
+                                  6
+                                  ⎯⎯
+                                  ╲
+                                  ╱  C(i)
+                                  ⎺⎺
+                                  i=0
 
                                   Figure 5
 
@@ -443,7 +455,7 @@ Appendix C.  Acknowledgments
    Brian Carpenter and Stephen Farrell wrote RFC8989, which provides the
    core of this document.
 
-   Luc Andre Burdet, Brian Carpenter, and Donald Eastlake provided
+   Luc André Burdet, Brian Carpenter, and Donald Eastlake provided
    useful editorial suggestions.
 
 Author's Address
