@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2023-01-26T00:28:07.265783+00:00",
+  "timestamp": "2023-02-02T00:30:56.335511+00:00",
   "repo": "ietf-wg-elegy/rfc8989bis",
   "labels": [
     {
@@ -803,6 +803,58 @@
       "mergeCommit": {
         "oid": "f08f692b8e6749fbc469a3e922bebfe44a4de297"
       },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 20,
+      "id": "PR_kwDOH7Dq_M5I89IZ",
+      "title": "Obsoletes RFC8788",
+      "url": "https://github.com/ietf-wg-elegy/rfc8989bis/pull/20",
+      "state": "OPEN",
+      "author": "martinduke",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2023-01-31T21:48:43Z",
+      "updatedAt": "2023-01-31T21:48:43Z",
+      "baseRepository": "ietf-wg-elegy/rfc8989bis",
+      "baseRefName": "main",
+      "baseRefOid": "bff07ad748a0e0f9ee204653386ff37307594778",
+      "headRepository": "ietf-wg-elegy/rfc8989bis",
+      "headRefName": "retana",
+      "headRefOid": "54c626fb9e632598009c6c32747c2eed655361ab",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 21,
+      "id": "PR_kwDOH7Dq_M5I9COu",
+      "title": "Paul Wouters AD review",
+      "url": "https://github.com/ietf-wg-elegy/rfc8989bis/pull/21",
+      "state": "OPEN",
+      "author": "martinduke",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2023-01-31T22:10:20Z",
+      "updatedAt": "2023-01-31T22:10:20Z",
+      "baseRepository": "ietf-wg-elegy/rfc8989bis",
+      "baseRefName": "main",
+      "baseRefOid": "bff07ad748a0e0f9ee204653386ff37307594778",
+      "headRepository": "ietf-wg-elegy/rfc8989bis",
+      "headRefName": "wouters",
+      "headRefOid": "e6fc6bfd067c8fb210fad79af249668c40e4bbb3",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
       "comments": [],
       "reviews": []
     }
