@@ -159,13 +159,13 @@ Table of Contents
    completed two cycles using entirely online tools.
 
    Counting remote attendance lowers the barriers to entry.  As the IETF
-   is committed to having a no-fee remote option
-   ([I-D.ietf-shmoo-remote-fee]) the only required investment is to log
-   on once per meeting at a specific time (sometimes a locally
-   inconvenient hour).  While this document does not formally impose a
-   requirement for the NomCom to function entirely remotely, including
-   remote-only attendees in the pool is likely to effectively require a
-   remote component to NomCom operations.
+   has historically provided a fee-free remote participation option, via
+   waiver or otherwise, the only required investment is to log on once
+   per meeting at a specific time (sometimes a locally inconvenient
+   hour).  While this document does not formally impose a requirement
+   for the NomCom to function entirely remotely, including remote-only
+   attendees in the pool is likely to effectively require a remote
+   component to NomCom operations.
 
    Finally, overly restrictive criteria work against getting a broad
    talent pool.
@@ -235,12 +235,10 @@ Table of Contents
 
    A sudden surge in the number of volunteers, particularly of people
    that no one recognizes as a part of the community, is an early-
-   warning sign for the community, leadership and the IETF Secretariat
-   to further investigate, and where needed take action as defined in
-   RFC 8713 Section 3.7.3 to invalidate such candidates.  The community
-   should monitor and assess a sudden increase in the number of online
-   registration fee waivers awarded in accordance with Section 4 of
-   [I-D.ietf-shmoo-remote-fee].
+   warning sign.  Anyone with concerns about the integrity of the
+   process should bring those concerns to the IESG to further
+   investigate,and where needed take action as defined in RFC 8713
+   Section 3.7.3 to invalidate such candidates.
 
    While loosening eligibility criteria lowers the cost to an attacker
    of producing eligible volunteers, it also increases the number of
@@ -331,13 +329,6 @@ Table of Contents
               <https://www.rfc-editor.org/rfc/rfc8713>.
 
 6.2.  Informative References
-
-   [I-D.ietf-shmoo-remote-fee]
-              Kühlewind, M., Reed, J., and R. Salz, "Open Participation
-              Principle regarding Remote Registration Fee", Work in
-              Progress, Internet-Draft, draft-ietf-shmoo-remote-fee-05,
-              9 January 2023, <https://datatracker.ietf.org/doc/html/
-              draft-ietf-shmoo-remote-fee-05>.
 
    [RFC8989]  Carpenter, B. and S. Farrell, "Additional Criteria for
               Nominating Committee Eligibility", RFC 8989,
