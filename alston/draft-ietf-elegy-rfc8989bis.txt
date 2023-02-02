@@ -235,9 +235,10 @@ Table of Contents
 
    A sudden surge in the number of volunteers, particularly of people
    that no one recognizes as a part of the community, is an early-
-   warning sign for the IESG to further investigate.  Anyone with
-   concerns about the integrity of the process should bring those
-   concerns to the IESG.
+   warning sign.  Anyone with concerns about the integrity of the
+   process should bring those concerns to the IESG to further
+   investigate,and where needed take action as defined in RFC 8713
+   Section 3.7.3 to invalidate such candidates.
 
    While loosening eligibility criteria lowers the cost to an attacker
    of producing eligible volunteers, it also increases the number of
@@ -273,7 +274,7 @@ Table of Contents
    suspicious behavior (e.g., logging in to a single session and then
    immediately logging out).  In the event of abuse of process, the
    leadership would then have months to adjust policy in response before
-   the NomCom cycle begins.
+   the NomCom cycle begins, and/or disqualify candidates.
 
 4.2.  Disruptive Candidates
 
