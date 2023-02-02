@@ -107,13 +107,13 @@ always excluded some from qualification from the NomCom, due to cost or personal
 reasons. Further, the NomCom has completed two cycles using entirely online
 tools.
 
-Counting remote attendance lowers the barriers to entry. As the IETF is
-committed to having a no-fee remote option ({{?I-D.ietf-shmoo-remote-fee}}) the
-only required investment is to log on once per meeting at a specific time
-(sometimes a locally inconvenient hour). While this document does not formally
-impose a requirement for the NomCom to function entirely remotely, including
-remote-only attendees in the pool is likely to effectively require a remote
-component to NomCom operations.
+Counting remote attendance lowers the barriers to entry. As the IETF has
+historically provided a fee-free remote participation option, via waiver or
+otherwise, the only required investment is to log on once per meeting at a
+specific time (sometimes a locally inconvenient hour). While this document
+does not formally impose a requirement for the NomCom to function entirely
+remotely, including remote-only attendees in the pool is likely to effectively
+require a remote component to NomCom operations.
 
 Finally, overly restrictive criteria work against getting a broad talent pool.
 
@@ -178,11 +178,9 @@ attacker must produce 365 volunteers to exceed a 50% chance of NomCom capture
 (see {{capture-math}}).
 
 A sudden surge in the number of volunteers, particularly of people that no one
-recognizes as a part of the community, is an early-warning sign for the
-community, leadership and the IETF Secretariat to further investigate. The
-community should monitor and assess a sudden increase in the number of online
-registration fee waivers awarded in accordance with
-{{Section 4 of I-D.ietf-shmoo-remote-fee}}.
+recognizes as a part of the community, is an early-warning sign for the IESG to
+further investigate. Anyone with concerns about the integrity of the process
+should bring those concerns to the IESG.
 
 While loosening eligibility criteria lowers the cost to an attacker of producing
 eligible volunteers, it also increases the number of legitimate volunteers that
