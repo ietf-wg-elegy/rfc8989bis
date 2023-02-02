@@ -178,9 +178,10 @@ attacker must produce 365 volunteers to exceed a 50% chance of NomCom capture
 (see {{capture-math}}).
 
 A sudden surge in the number of volunteers, particularly of people that no one
-recognizes as a part of the community, is an early-warning sign for the IESG to
-further investigate. Anyone with concerns about the integrity of the process
-should bring those concerns to the IESG.
+recognizes as a part of the community, is an early-warning sign. Anyone with
+concerns about the integrity of the process should bring those concerns to the
+IESG to further investigate,and where needed take action as defined in RFC 8713
+Section 3.7.3 to invalidate such candidates.
 
 While loosening eligibility criteria lowers the cost to an attacker of producing
 eligible volunteers, it also increases the number of legitimate volunteers that
@@ -212,7 +213,7 @@ community challenge to the list of eligible volunteers, and/or a leadership
 investigation to detect suspicious behavior (e.g., logging in to a single
 session and then immediately logging out). In the event of abuse of process, the
 leadership would then have months to adjust policy in response before the NomCom
-cycle begins.
+cycle begins, and/or disqualify candidates.
 
 ## Disruptive Candidates
 
