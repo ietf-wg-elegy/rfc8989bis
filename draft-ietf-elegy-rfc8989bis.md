@@ -51,11 +51,11 @@ IETF LLC Director. A key actor in the process is the Nominating Committee
 confirmation by other bodies.
 
 NomCom voting members are volunteers that have met certain eligibility
-requirements. The actual NomCom is selected at random from the pool of eligible
-volunteers. Thus, it is important that members of the pool be IETF participants
-likely to have knowledge of IETF processes and practices. There are restrictions
-to ensure that no more than two volunteers with the same primary affiliation are
-chosen.
+requirements. Appointment to the NomCom is selected at random from the pool of
+eligible volunteers. Thus, it is important that members of the pool be IETF
+participants likely to have knowledge of IETF processes and practices. There are
+restrictions to ensure that no more than two volunteers with the same primary
+affiliation are chosen.
 
 {{Section 4.14 of RFC8713}} requires that volunteers must have attended three of
 the previous five meetings. In practice, this has meant that the volunteer
@@ -71,7 +71,7 @@ session of a fully-online IETF meeting.
 
 RFC8989 also created two other tracks to obtain eligibility: (1) serving as a
 working group chair or secretary in the past three years, and (2) author or
-editor of an IETF Stream RFC in the past five years, including internet-drafts
+editor of two IETF Stream RFCs in the past five years, including internet-drafts
 in the RFC Editor queue.
 
 This document discusses some of the first principles that inform the design of
@@ -101,11 +101,11 @@ that disrupts IETF operations or works against the interests of the community as
 a whole.
 
 However, attitudes to business travel evolve, and remote meeting technology
-continues to improve, to the extent that many longstanding community members
+continues to improve, to the extent that some longstanding community members
 choose to participate remotely. A requirement for in-person attendance has
 always excluded some from qualification from the NomCom, due to cost or personal
-reasons. Further, the NomCom has completed two cycles using entirely online
-tools.
+reasons. Further, the NomCom has completed two cycles (2020-21 and 2021-22)
+without any in-person interaction.
 
 Counting remote attendance lowers the barriers to entry. As the IETF has
 historically provided a fee-free remote participation option, via waiver or
@@ -115,7 +115,8 @@ does not formally impose a requirement for the NomCom to function entirely
 remotely, including remote-only attendees in the pool is likely to effectively
 require a remote component to NomCom operations.
 
-Finally, overly restrictive criteria work against getting a broad talent pool.
+Finally, overly restrictive criteria work against getting a large volunteer
+pool.
 
 # Criteria
 
@@ -129,8 +130,9 @@ otherwise disqualified under {{Section 4.15 of RFC8713}}.
 Path 1:
 The person has registered for and attended three out of the last five IETF
 meetings, either in-person or online. In-person attendance is as determined by
-the record keeping of the Secretariat. Online attendance is based on being a
-registered person who logged in for at least one session of an IETF meeting.
+the record keeping of the Secretariat, currently based on picking up a badge.
+Online attendance is based on being a registered person who logged in for at
+least one session of an IETF meeting.
 
 Path 2:
 The person has been a Working Group Chair or Secretary within the three years
