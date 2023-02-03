@@ -71,7 +71,7 @@ session of a fully-online IETF meeting.
 
 RFC8989 also created two other tracks to obtain eligibility: (1) serving as a
 working group chair or secretary in the past three years, and (2) author or
-editor of two IETF Stream RFC in the past five years, including internet-drafts
+editor of two IETF Stream RFCs in the past five years, including internet-drafts
 in the RFC Editor queue.
 
 This document discusses some of the first principles that inform the design of
