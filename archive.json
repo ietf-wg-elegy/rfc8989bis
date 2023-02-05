@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2023-02-02T00:30:56.335511+00:00",
+  "timestamp": "2023-02-05T00:32:28.766924+00:00",
   "repo": "ietf-wg-elegy/rfc8989bis",
   "labels": [
     {
@@ -811,46 +811,152 @@
       "id": "PR_kwDOH7Dq_M5I89IZ",
       "title": "Obsoletes RFC8788",
       "url": "https://github.com/ietf-wg-elegy/rfc8989bis/pull/20",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "martinduke",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "",
       "createdAt": "2023-01-31T21:48:43Z",
-      "updatedAt": "2023-01-31T21:48:43Z",
+      "updatedAt": "2023-02-02T15:45:27Z",
       "baseRepository": "ietf-wg-elegy/rfc8989bis",
       "baseRefName": "main",
       "baseRefOid": "bff07ad748a0e0f9ee204653386ff37307594778",
       "headRepository": "ietf-wg-elegy/rfc8989bis",
       "headRefName": "retana",
       "headRefOid": "54c626fb9e632598009c6c32747c2eed655361ab",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "closedAt": "2023-02-02T15:45:27Z",
+      "mergedAt": "2023-02-02T15:45:26Z",
+      "mergedBy": "martinduke",
+      "mergeCommit": {
+        "oid": "c6905e00af14930dc25237a1308ad21d9061a152"
+      },
       "comments": [],
-      "reviews": []
+      "reviews": [
+        {
+          "id": "PRR_kwDOH7Dq_M5MUb4k",
+          "commit": {
+            "abbreviatedOid": "54c626f"
+          },
+          "author": "mcr",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2023-02-02T06:46:53Z",
+          "updatedAt": "2023-02-02T06:46:53Z",
+          "comments": []
+        },
+        {
+          "id": "PRR_kwDOH7Dq_M5MVYyn",
+          "commit": {
+            "abbreviatedOid": "54c626f"
+          },
+          "author": "larseggert",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2023-02-02T09:49:31Z",
+          "updatedAt": "2023-02-02T09:49:31Z",
+          "comments": []
+        }
+      ]
     },
     {
       "number": 21,
       "id": "PR_kwDOH7Dq_M5I9COu",
       "title": "Paul Wouters AD review",
       "url": "https://github.com/ietf-wg-elegy/rfc8989bis/pull/21",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "martinduke",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "",
       "createdAt": "2023-01-31T22:10:20Z",
-      "updatedAt": "2023-01-31T22:10:20Z",
+      "updatedAt": "2023-02-02T16:02:28Z",
       "baseRepository": "ietf-wg-elegy/rfc8989bis",
       "baseRefName": "main",
       "baseRefOid": "bff07ad748a0e0f9ee204653386ff37307594778",
       "headRepository": "ietf-wg-elegy/rfc8989bis",
       "headRefName": "wouters",
-      "headRefOid": "e6fc6bfd067c8fb210fad79af249668c40e4bbb3",
+      "headRefOid": "07013a52cc3f4fbe86d3069973b077ddab882e83",
+      "closedAt": "2023-02-02T16:02:28Z",
+      "mergedAt": "2023-02-02T16:02:28Z",
+      "mergedBy": "martinduke",
+      "mergeCommit": {
+        "oid": "ac16d95e99742954ab64a0242e9cf64037384a0b"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 22,
+      "id": "PR_kwDOH7Dq_M5JH6SM",
+      "title": "remove remote-fee references, IESG will investigate",
+      "url": "https://github.com/ietf-wg-elegy/rfc8989bis/pull/22",
+      "state": "MERGED",
+      "author": "martinduke",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2023-02-02T15:56:07Z",
+      "updatedAt": "2023-02-02T16:32:49Z",
+      "baseRepository": "ietf-wg-elegy/rfc8989bis",
+      "baseRefName": "main",
+      "baseRefOid": "ac16d95e99742954ab64a0242e9cf64037384a0b",
+      "headRepository": "ietf-wg-elegy/rfc8989bis",
+      "headRefName": "alston",
+      "headRefOid": "53a5507f4354c1347b04a5b07d0a503e032a4d9d",
+      "closedAt": "2023-02-02T16:10:44Z",
+      "mergedAt": "2023-02-02T16:10:44Z",
+      "mergedBy": "martinduke",
+      "mergeCommit": {
+        "oid": "d81307eeeb16ac6dda907aaedf6ea87310518af4"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOH7Dq_M5MYP2a",
+          "commit": {
+            "abbreviatedOid": "53a5507"
+          },
+          "author": "richsalz",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2023-02-02T16:32:49Z",
+          "updatedAt": "2023-02-02T16:32:49Z",
+          "comments": [
+            {
+              "originalPosition": 33,
+              "body": "This might be more clear: \"IESG for further investigation and to take action, if needed, as defined in RFC 8713\"  If not, fine, but at least a space after the comma :)",
+              "createdAt": "2023-02-02T16:32:49Z",
+              "updatedAt": "2023-02-02T16:32:49Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "id": "PR_kwDOH7Dq_M5JOeU5",
+      "title": "Roman's AD review",
+      "url": "https://github.com/ietf-wg-elegy/rfc8989bis/pull/23",
+      "state": "OPEN",
+      "author": "martinduke",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2023-02-03T18:40:10Z",
+      "updatedAt": "2023-02-03T18:40:10Z",
+      "baseRepository": "ietf-wg-elegy/rfc8989bis",
+      "baseRefName": "main",
+      "baseRefOid": "d81307eeeb16ac6dda907aaedf6ea87310518af4",
+      "headRepository": "ietf-wg-elegy/rfc8989bis",
+      "headRefName": "danyliw",
+      "headRefOid": "3354f8b59ea9bbd4e3ec4eb5175091fb76f02783",
       "closedAt": null,
       "mergedAt": null,
       "mergedBy": null,
